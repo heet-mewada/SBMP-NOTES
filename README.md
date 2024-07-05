@@ -7,4 +7,4 @@ NOTES FOR SUBJECTS FOR SBMP CSE YEAR 3 AND YEAR 4
 #DIFF for differentiate
 #IMP for important
 #SKIP for skippable
-
+#EXM for example

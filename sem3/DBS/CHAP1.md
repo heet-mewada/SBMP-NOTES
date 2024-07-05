@@ -12,11 +12,46 @@ A Relational Database Management System (RDBMS) is a program that allows you to
 # DBMS AND RDBMS #DIFF 
 |       Points        | DBMS                                 | RDBMS                                         |
 | :-----------------: | ------------------------------------ | --------------------------------------------- |
+| **==Data Integrity==**  | **==does not force integrity==**         | **==forces integrity==**                          |
+| **==Data Redundancy==** | **==does not care about redundancy==**   | **==eliminates redundancy using normalization==** |
+|    **==Features==**     | **==no specific features==**             | **==SQL, backups, DBA==**                         |
+|    **==Relations==**    | **==does not have a relational model==** | **==is built on a relational model==**            |
 |    Data Storage     | stores as files                      | stores as tables                              |
-| ==Data Integrity==  | ==does not force integrity==         | ==forces integrity==                          |
-|   Multiple Views    | does not support multiview           | supports multiview                            |
-| ==Data Redundancy== | ==does not care about redundancy==   | ==eliminates redundancy using normalization== |
-|    ==Relations==    | ==does not have a relational model== | ==is built on a relational model==            |
 |  Multi-user access  | single user                          | multi-user                                    |
-|      ==Features==       | ==no specific features==                 | ==SQL, backups, DBA==                             |
+|   Multiple Views    | does not support multiview           | supports multiview                            |
 
+# Features of RDBMS 
+## Referential integrity #DEF 
+RDBMS ensures that the relationships between the data elements in different tables are maintained, i.e. ensuring data consistency and integrity
+
+## SQL #DEF 
+RDBMS uses structured query language to interpret and execute commands such as UPDATE, INSERT, DELETE, MAKE and ALTER.
+
+## ACID #DEF 
+RDBMS implements the ACID<mark style="background: #D2B3FFA6;">(</mark><mark style="background: #D2B3FFA6;"></mark><mark style="background: #D2B3FFA6;">Atomicity, Consistency, Isolation, Durability)</mark> model to ensure data consistency and integrity.
+
+## Indexing #DEF 
+RDBMS provides indexing to improve query performance and data retrieval.
+
+## Normalization #DEF 
+RDBMS uses normalization to reduce data redundancy and improve data integrity.
+
+## Keys #DEF 
+RDBMS uses keys in attributes to make it easier to manage the database.
+## Access control #DEF 
+RDBMS allows the DBA to give certain privileges to people, namely view, edit and manage privileges which allows those users to access the database in the way that privilege intends. 
+
+## Atomicity #DEF 
+<mark style="background: #ABF7F7A6;">Atomicity guarantees that all of the commands that make up a transaction are treated as a single unit and either succeed or fail together.</mark> This is important as in the case of an unwanted event, like a crash or power outage, we can be sure of the state of the database. The transaction would have either completed successfully or been rolled back if any part of the transaction failed.
+
+## Consistency #DEF 
+<mark style="background: #FFB8EBA6;">Consistency guarantees that changes made within a transaction are consistent with database constraints.</mark> This includes all rules, constraints, and triggers. If the data gets into an illegal state, the whole transaction fails.
+
+## Isolation #DEF 
+Isolation ensures that all transactions run in an isolated environment. That enables running transactions concurrently because transactions don’t interfere with each other.
+
+## Durability #DEF 
+<mark style="background: #FFF3A3A6;">Durability guarantees that once the transaction completes and changes are written to the database, they are persisted.</mark> This ensures that data within the system will persist even in the case of system failures like crashes or power outages.
+
+## Acid #EXM
+![[Pasted image 20240705220056.png]]
