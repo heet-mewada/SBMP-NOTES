@@ -54,4 +54,3 @@ Isolation ensures that all transactions run in an isolated environment. That ena
 <mark style="background: #FFF3A3A6;">Durability guarantees that once the transaction completes and changes are written to the database, they are persisted.</mark> This ensures that data within the system will persist even in the case of system failures like crashes or power outages.
 
 ## Acid #EXM
-![[Pasted image 20240705220056.png]]
