@@ -55,4 +55,4 @@ Isolation ensures that all transactions run in an isolated environment. That ena
 
 
 ## ACID #EXM 
-![[Pasted image 20240705221000.png]]
+![[ACID EXAMPLE.png]]
