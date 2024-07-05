@@ -10,13 +10,13 @@ A Relational Database Management System (RDBMS) is a program that allows you to
 <mark style="background: #FFF3A3A6;">It allows users to set up relationship between many tables at once which is not possible in DBMS.</mark>
 
 # DBMS AND RDBMS #DIFF 
-|      Points       | DBMS                             | RDBMS                                     |
-| :---------------: | -------------------------------- | ----------------------------------------- |
-|   Data Storage    | stores as files                  | stores as tables                          |
-|  Data Integrity   | does not force integrity         | forces integrity                          |
-|  Multiple Views   | does not support multiview       | supports multiview                        |
-|  Data Redundancy  | does not care about redundancy   | eliminates redundancy using normalization |
-|     Relations     | does not have a relational model | is built on a relational model            |
-| Multi-user access | single user                      | multi-user                                |
-|     Features      | no specific features             | SQL, backups, DBA                         |
+|       Points        | DBMS                                 | RDBMS                                         |
+| :-----------------: | ------------------------------------ | --------------------------------------------- |
+|    Data Storage     | stores as files                      | stores as tables                              |
+| ==Data Integrity==  | ==does not force integrity==         | ==forces integrity==                          |
+|   Multiple Views    | does not support multiview           | supports multiview                            |
+| ==Data Redundancy== | ==does not care about redundancy==   | ==eliminates redundancy using normalization== |
+|    ==Relations==    | ==does not have a relational model== | ==is built on a relational model==            |
+|  Multi-user access  | single user                          | multi-user                                    |
+|      ==Features==       | ==no specific features==                 | ==SQL, backups, DBA==                             |
 
