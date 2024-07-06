@@ -41,19 +41,26 @@ RDBMS uses keys in attributes to make it easier to manage the database.
 ## Access control #DEF 
 RDBMS allows the DBA to give certain privileges to people, namely view, edit and manage privileges which allows those users to access the database in the way that privilege intends. 
 
-## Atomicity #DEF 
+## ACID #DEF
+### Atomicity #DEF 
 <mark style="background: #ABF7F7A6;">Atomicity guarantees that all of the commands that make up a transaction are treated as a single unit and either succeed or fail together.</mark> This is important as in the case of an unwanted event, like a crash or power outage, we can be sure of the state of the database. The transaction would have either completed successfully or been rolled back if any part of the transaction failed.
 
-## Consistency #DEF 
+### Consistency #DEF 
 <mark style="background: #FFB8EBA6;">Consistency guarantees that changes made within a transaction are consistent with database constraints.</mark> This includes all rules, constraints, and triggers. If the data gets into an illegal state, the whole transaction fails.
 
-## Isolation #DEF 
+### Isolation #DEF 
 Isolation ensures that all transactions run in an isolated environment. That enables running transactions concurrently because transactions don’t interfere with each other.
 
-## Durability #DEF 
+### Durability #DEF 
 <mark style="background: #FFF3A3A6;">Durability guarantees that once the transaction completes and changes are written to the database, they are persisted.</mark> This ensures that data within the system will persist even in the case of system failures like crashes or power outages.
 
 
 ## ACID #EXM 
-![[ACID EXAMPLE.png]]
+![[ACID EXAMPLE.png]] 
 
+
+# Types of Users 
+## Naive Users #DEF 
+Unsophisticated users(end users) that are not concerned with the DB or its programs. These users interact with the DB through an interface but cannot modify the DB in any way except their own entry.
+## Application Programmers #DEF 
+Users that interact with the DB using programs and 
