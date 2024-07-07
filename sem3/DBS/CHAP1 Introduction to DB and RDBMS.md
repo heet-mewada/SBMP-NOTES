@@ -225,3 +225,37 @@ Here the branch  from the first table is connected to the 2nd and the amount of 
 - ### Processing:
 	 Slower at processing than hierarchical or network model
 # Hierarchical Model #EXP 
+- This model is used for [[#Mapping Cardinalities DEF | One to Many ]] relationships, presenting data to users in a tree like strcuture.
+
+- data elements are organized into pieces of records called segments.
+
+- the top of the segment is called the root. 
+
+- each segment that has offshoot segments is called a parent segment and that offshoot is called a child segment.
+
+![[HM.png| Hierarchical Model]]
+
+## Advantages 
+- High speed of access to large data sections
+- Ease of updates
+- Design is simple
+- First model to introduce security in DBMS
+- Efficient use of data sets and relationships for transactions
+## Disadvantages
+- Implementation complexity
+- Change in DB requires a change in the application programs
+- Uses physical storage to store different segments, if physical [[#Schema EXP | schema]] is changed then logical schema needs to be changed too.
+
+# Network Model #EXP 
+- This model depicts data logically in [[#Mapping Cardinalities DEF | Many to Many]] relationships. That is parents can have multiple children and children can have more than one parent.
+
+![[NM.png| Network Model]]
+## Advantages
+- Conceptually simple and easy to design
+- Can handle 1:n as well as n:n relationships
+- The changes in data does not require changes in the logical schema
+
+## Disadvantages
+- Detailed structure knowledge is required 
+- Lack of structural independence
+
