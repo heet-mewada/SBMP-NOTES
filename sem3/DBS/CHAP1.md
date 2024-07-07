@@ -64,6 +64,14 @@ RDBMS allows the DBA to give certain privileges to people, namely view, edit and
 ## ACID #EXM 
 ![[ACID EXAMPLE.png]] 
 
+# Abstraction #EXP 
+
+- ## Physical Level
+	 Describes a how a record is stored.
+- ## Logical Level
+	 Describes data in the data warehouse(collection of DB) and the relationship between that data (view [[#Data Models EXP | Data Models]] for explanation).
+- ## View Level
+	 Describes how data looks to the end user, i.e. hides unnecessary data for the end user that need not be seen by them or other end users for security purposes.
 
 # Types of Users 
 ## Naive Users #DEF 
@@ -86,4 +94,4 @@ This model uses objects known as Entities and the relationship between them to d
 An object in the which is distinguishable from other objects.
 
 ### Relationship #DEF 
-Association between several entities.
+Association between several entities. 
