@@ -28,7 +28,7 @@ RDBMS ensures that the relationships between the data elements in different tabl
 RDBMS uses structured query language to interpret and execute commands such as UPDATE, INSERT, DELETE, MAKE and ALTER.
 
 ## ACID #DEF 
-RDBMS implements the ACID<mark style="background: #D2B3FFA6;">(</mark><mark style="background: #D2B3FFA6;"></mark><mark style="background: #D2B3FFA6;">Atomicity, Consistency, Isolation, Durability)</mark> model to ensure data consistency and integrity.
+RDBMS implements the ACID([[#Atomicity DEF]], [[#Consistency DEF]], [[#Isolation DEF]], [[#Durability DEF]]) model to ensure data consistency and integrity.
 
 ## Indexing #DEF 
 RDBMS provides indexing to improve query performance and data retrieval.
@@ -40,6 +40,7 @@ RDBMS uses normalization to reduce data redundancy and improve data integrity.
 RDBMS uses keys in attributes to make it easier to manage the database.
 ## Access control #DEF 
 RDBMS allows the DBA to give certain privileges to people, namely view, edit and manage privileges which allows those users to access the database in the way that privilege intends. 
+
 
 ## ACID #DEF
 ### Atomicity #DEF 
@@ -63,4 +64,8 @@ Isolation ensures that all transactions run in an isolated environment. That ena
 ## Naive Users #DEF 
 Unsophisticated users(end users) that are not concerned with the DB or its programs. These users interact with the DB through an interface but cannot modify the DB in any way except their own entry.
 ## Application Programmers #DEF 
-Users that interact with the DB using programs and 
+Users that interact with the DB using programs through DML(Data Manipulation Language) and RAD(Rapid development tools). RAD allows application programmers to construct forms and reports with minimal efforts.
+## Sophisticated Users #DEF 
+
+
+
