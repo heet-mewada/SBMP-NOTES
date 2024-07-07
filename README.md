@@ -9,3 +9,4 @@ NOTES FOR SUBJECTS FOR SBMP CSE YEAR 2 AND YEAR 3
 #SKIP for skippable
 #EXM for example
 #EXP for explaination
+#DIA for diagram

@@ -49,6 +49,7 @@
 
 
 ## ACID #EXP 
+
 - ### Atomicity #DEF
 	==Atomicity guarantees that all of the commands that make up a transaction are treated as a single unit and either succeed or fail together.== This is important as in the case of an unwanted event, like a crash or power outage, we can be sure of the state of the database. The transaction would have either completed successfully or been rolled back if any part of the transaction failed.
 
@@ -63,17 +64,32 @@
 
 
 ## ACID #EXM 
-![[ACID EXAMPLE.png]] 
+![[ACID EXAMPLE.png | Acid Example]] 
 
 # Abstraction #EXP 
 
-- ## Physical Level
+- ## Physical Level #DEF 
 	 Describes a how a record is stored.
-- ## Logical Level
+- ## Logical Level #DEF 
 	 Describes data in the data warehouse(collection of DB) and the relationship between that data (view [[#Data Models EXP | Data Models]] for explanation).
-- ## View Level
+- ## View Level #DEF 
 	 Describes how data looks to the end user, i.e. hides unnecessary data for the end user that need not be seen by them or other end users for security purposes.
 
+# Abstraction Levels #DIA 
+![[Abstraction.png| Data Model]]
+
+# Schema #EXP 
+- ## Logical Schema #EXP 
+	 - The logical structure of the DB, i.e. how the database is structured logically with programs on the software it is stored in.
+	 - Applications depend on the logical schema
+- ## Physical Schema #EXP 
+	 - The physical structure of the DB, i.e. how the database is stored outside of software, inside the data warehouse.
+
+## Data Independence #DEF 
+The ability to change the physical schema without changing the logical schema.
+
+# Instance #DEF 
+The content of the DB at a point of time.
 # Types of Users 
 ## Naive Users #DEF 
 Unsophisticated users(end users) that are not concerned with the DB or its programs. These users interact with the DB through an interface but cannot modify the DB in any way except their own entry.
@@ -91,8 +107,11 @@ There are multiple data models such as [[#ER Model EXP | ER Model]], Relational 
 ## ER Model #EXP 
 This model uses objects known as Entities and the relationship between them to display [[#data DEF  | data]]. 
 
-### Entity #DEF 
-An object in the which is distinguishable from other objects.
+- ### Entity #DEF 
+	An object in the which is distinguishable from other objects.
 
-### Relationship #DEF 
-Association between several entities. 
+- ### Relationship #DEF 
+	Association between several entities. 
+
+
+
