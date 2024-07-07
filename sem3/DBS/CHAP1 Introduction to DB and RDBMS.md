@@ -165,3 +165,18 @@ Each entity has attributes, the particular properties that describe it. For each
 | ------ | ----------------------------------------------------- | ------------------------------------------------------------ |
 | Def    | Attributes from which derived attributes are derived. | Attributes that can be determined by another attribute.      |
 | Exmp   | Date of Birth is a stored attribute                   | Age is a derived attribute that can be determined by the DoB |
+
+## Mapping Cardinalities #DEF 
+Expresses the number of entities are associated with the entity in question.
+
+- ### One to One Mapping cardinalities
+	 An entity A is associated with another entity B and with no other entities same goes for entity B.
+- ### One to Many Mapping cardinalities
+	 An entity A is associated with many entities while those entities associated with A aren’t associated with other entities.
+- ### Many to One Mapping cardinalities
+	 Opposite of one to many mapping cardinalities where the perspective is flipped.
+- ### Many to Many Mapping cardinalities
+	 An entity A is associated with any number of entities and those entities are related to any number of entities not just A.
+
+# Recursive Relationship #DEF 
+Occurs with unary relationships, the relationship may be [[#Mapping Cardinalities DEF | One to One]], [[#Mapping Cardinalities DEF | One to Many]],[[#Mapping Cardinalities DEF | Many to One]] or [[#Mapping Cardinalities DEF | Many to Many]] as long as the relationship is unary. Recursive Relationships are those associations that are related in the space between 2 entities, i.e. person A **is married to** person B. “is married to” here is recursive relationship. 
