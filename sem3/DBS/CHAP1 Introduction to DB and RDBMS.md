@@ -180,3 +180,48 @@ Expresses the number of entities are associated with the entity in question.
 
 # Recursive Relationship #DEF 
 Occurs with unary relationships, the relationship may be [[#Mapping Cardinalities DEF | One to One]], [[#Mapping Cardinalities DEF | One to Many]],[[#Mapping Cardinalities DEF | Many to One]] or [[#Mapping Cardinalities DEF | Many to Many]] as long as the relationship is unary. Recursive Relationships are those associations that are related in the space between 2 entities, i.e. person A **is married to** person B. “is married to” here is recursive relationship. 
+
+# ER diagram symbols #DIA 
+![[SymbolER1.png | ER symbols]] ![[SymbolER2.png | ER2]] 
+
+# Relationalship Model #EXP 
+Represents data and relationships among data by a collection of tables.
+
+## Relationalship Model #EXM 
+
+### Table of Accounts
+
+| ID    | Name | Balance | Branch    |
+| ----- | ---- | ------- | --------- |
+| 22883 | John | 120000  | Borivali  |
+| 24455 | Jane | 19382   | Mira Road |
+| 17788 | Ron  | 1999992 | Kandivali |
+| 36663 | Ed   | 7       | Malad     |
+### Table of Branches
+
+| Branch    | Head         | Amount of users |
+| --------- | ------------ | --------------- |
+| Borivali  | etcher       | 4000000         |
+| Mira Road | Constaintine | 42777777        |
+| Kandivali | Table        | 130000000       |
+| Malad     | Ed           | 1               |
+Here the branch  from the first table is connected to the 2nd and the amount of users from the 2nd table is connected to the 1st.
+
+# Advantages 
+- ### Structural Independence:
+	 Database structure can be changed without affecting DBMS’ ability to access data
+- ### Conceptual Simplicity:
+	 Designer can focus on the logical view on the database without worrying about the physical storage details
+- ### Implementation, Usage and Maintenance ease:
+	 It is easy to setup and use & even easier to maintain the DB.
+- ### Navigation:
+	 It is easy to navigate within the DB as everything is linked and connected
+- ### Flexibility:
+	 It is very flexible as everything is linked and connected
+
+## Disadvantages 
+- ### Transaction:
+	 Not as good at transaction as hierarchical or network model
+- ### Processing:
+	 Slower at processing than hierarchical or network model
+# Hierarchical Model #EXP 
