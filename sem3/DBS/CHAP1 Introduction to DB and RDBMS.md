@@ -205,6 +205,7 @@ Represents data and relationships among data by a collection of tables.
 | Mira Road | Constaintine | 42777777        |
 | Kandivali | Table        | 130000000       |
 | Malad     | Ed           | 1               |
+
 Here the branch  from the first table is connected to the 2nd and the amount of users from the 2nd table is connected to the 1st.
 
 ## Advantages 
