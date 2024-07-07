@@ -138,3 +138,30 @@ This model uses objects known as Entities and the relationship between them to d
 
 ![[Example of ER.png| Example of ER model]]
 
+## Advantages of ER #EXP 
+- Easy to develop relations 
+- Specific Mapping Capabilities
+- Specific Keys like primary key
+- Generalization and Specialization
+## Disadvantages of ER #EXP 
+- Only conceptional and not used in market.
+## Attributes of ER #EXP 
+Each entity has attributes, the particular properties that describe it. For each attribute, there is a set permitted values called domain or value set of attribute, which can be either strings or numbers. Attributes can be either composite or simple(atomic) attributes & single valued or multi valued attributes & stored or derived attributes.
+
+## Composite vs Atomic Attributes #DIFF 
+
+| Points | Composite Attributes                                                                                                            | Atomic Attributes                                                                                    |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Def    | Attributes composed of objects that can be divided into other attributes with independent meanings.                             | Attributes which cannot be divided into smaller attributes with independent meanings.                |
+| Exmp   | Name can be a composite attribute as it can be divided into different attributes such as first name, middle name and last name. | Id’s are an atomic attribute as they cannot be divided into different attributes unless designed to. |
+## Singled vs Multi valued Attributes #DIFF 
+| Points | Singled Valued Attributes                                                         | Multi Valued Attributes                                                          |
+| ------ | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Def    | Attributes with only one possible data value for a singular entry.                | Attributes with multiple possible data value for a singular entry.               |
+| Exmp   | Age for a person can only one possible data value for a singular person at a time | College degree can multiple possible data values for a singular person at a time |
+
+## Stored vs Derived Attributes #DIFF 
+| Points | Stored Attributes                                     | Derived Attributes                                           |
+| ------ | ----------------------------------------------------- | ------------------------------------------------------------ |
+| Def    | Attributes from which derived attributes are derived. | Attributes that can be determined by another attribute.      |
+| Exmp   | Date of Birth is a stored attribute                   | Age is a derived attribute that can be determined by the DoB |
