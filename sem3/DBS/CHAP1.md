@@ -10,35 +10,35 @@ A Relational Database Management System (RDBMS) is a program that allows you to
 <mark style="background: #FFF3A3A6;">It allows users to set up relationship between many tables at once which is not possible in DBMS.</mark>
 
 # DBMS AND RDBMS #DIFF 
-|       Points        | DBMS                                 | RDBMS                                         |
-| :-----------------: | ------------------------------------ | --------------------------------------------- |
+|         Points          | DBMS                                     | RDBMS                                             |
+| :---------------------: | ---------------------------------------- | ------------------------------------------------- |
 | **==Data Integrity==**  | **==does not force integrity==**         | **==forces integrity==**                          |
 | **==Data Redundancy==** | **==does not care about redundancy==**   | **==eliminates redundancy using normalization==** |
 |    **==Features==**     | **==no specific features==**             | **==SQL, backups, DBA==**                         |
 |    **==Relations==**    | **==does not have a relational model==** | **==is built on a relational model==**            |
-|    Data Storage     | stores as files                      | stores as tables                              |
-|  Multi-user access  | single user                          | multi-user                                    |
-|   Multiple Views    | does not support multiview           | supports multiview                            |
+|      Data Storage       | stores as files                          | stores as tables                                  |
+|    Multi-user access    | single user                              | multi-user                                        |
+|     Multiple Views      | does not support multiview               | supports multiview                                |
 
 # Features of RDBMS 
-## Referential integrity #DEF 
-RDBMS ensures that the relationships between the data elements in different tables are maintained, i.e. ensuring data consistency and integrity
+## - Referential integrity #DEF 
+[[#RDBMS DEF]] ensures that the relationships between the data elements in different tables are maintained, i.e. ensuring data consistency and integrity
 
-## SQL #DEF 
+## - SQL #DEF 
 RDBMS uses structured query language to interpret and execute commands such as UPDATE, INSERT, DELETE, MAKE and ALTER.
 
-## ACID #DEF 
+## - ACID #DEF 
 RDBMS implements the ACID([[#Atomicity DEF]], [[#Consistency DEF]], [[#Isolation DEF]], [[#Durability DEF]]) model to ensure data consistency and integrity.
 
-## Indexing #DEF 
+## - Indexing #DEF 
 RDBMS provides indexing to improve query performance and data retrieval.
 
-## Normalization #DEF 
+## - Normalization #DEF 
 RDBMS uses normalization to reduce data redundancy and improve data integrity.
 
-## Keys #DEF 
+## - Keys #DEF 
 RDBMS uses keys in attributes to make it easier to manage the database.
-## Access control #DEF 
+## - Access control #DEF 
 RDBMS allows the DBA to give certain privileges to people, namely view, edit and manage privileges which allows those users to access the database in the way that privilege intends. 
 
 
@@ -64,8 +64,15 @@ Isolation ensures that all transactions run in an isolated environment. That ena
 ## Naive Users #DEF 
 Unsophisticated users(end users) that are not concerned with the DB or its programs. These users interact with the DB through an interface but cannot modify the DB in any way except their own entry.
 ## Application Programmers #DEF 
-Users that interact with the DB using programs through DML(Data Manipulation Language) and RAD(Rapid development tools). RAD allows application programmers to construct forms and reports with minimal efforts.
+Users that interact with the DB using programs through [[#DML DEF]](Data Manipulation Language) and RAD(Rapid development tools). RAD allows application programmers to construct forms and reports with minimal efforts.
 ## Sophisticated Users #DEF 
+Users that interact with the DB using data query languages or by using tools like data analysis tools. They don’t interact using programs like [[#Application Programmers DEF]] but interact using [[#SQL DEF]] queries that directly interact with the query processor.
+## Specialized Users #DEF 
+Users who write specialized database applications such as computer-aided design systems, knowledge base and expert systems, systems that store data with complex data types.
 
+# Data Models #EXP
+A collection of tools that help with describing data, relations between data, data constraints and semantics.
+There are multiple data models such as [[#ER Model EXP]], Relational Model, there are older models that are still used such as Network Model and Hierarchical Model.
 
+## ER Model #EXP 
 

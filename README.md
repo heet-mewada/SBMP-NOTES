@@ -8,3 +8,4 @@ NOTES FOR SUBJECTS FOR SBMP CSE YEAR 2 AND YEAR 3
 #IMP for important
 #SKIP for skippable
 #EXM for example
+#EXP for explaination
