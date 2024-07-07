@@ -207,7 +207,7 @@ Represents data and relationships among data by a collection of tables.
 | Malad     | Ed           | 1               |
 Here the branch  from the first table is connected to the 2nd and the amount of users from the 2nd table is connected to the 1st.
 
-# Advantages 
+## Advantages 
 - ### Structural Independence:
 	 Database structure can be changed without affecting DBMS’ ability to access data
 - ### Conceptual Simplicity:
