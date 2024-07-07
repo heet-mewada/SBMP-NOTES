@@ -27,13 +27,13 @@ A Relational Database Management System (RDBMS) is a program that allows you to
 
 # Features of RDBMS 
 ## - Referential integrity #DEF 
-[[#RDBMS DEF]] ensures that the relationships between the data elements in different tables are maintained, i.e. ensuring data consistency and integrity
+[[#RDBMS DEF | RDBMS]] ensures that the relationships between the data elements in different tables are maintained, i.e. ensuring data consistency and integrity
 
 ## - SQL #DEF 
 RDBMS uses structured query language to interpret and execute commands such as UPDATE, INSERT, DELETE, MAKE and ALTER.
 
 ## - ACID #DEF 
-RDBMS implements the ACID([[#Atomicity DEF]], [[#Consistency DEF]], [[#Isolation DEF]], [[#Durability DEF]]) model to ensure data consistency and integrity.
+RDBMS implements the ACID([[#Atomicity DEF| Atomicity]], [[#Consistency DEF|Consistency]], [[#Isolation DEF|Isolation]], [[#Durability DEF|Durability]]) model to ensure data consistency and integrity.
 
 ## - Indexing #DEF 
 RDBMS provides indexing to improve query performance and data retrieval.
@@ -55,7 +55,7 @@ RDBMS allows the DBA to give certain privileges to people, namely view, edit and
 <mark style="background: #FFB8EBA6;">Consistency guarantees that changes made within a transaction are consistent with database constraints.</mark> This includes all rules, constraints, and triggers. If the data gets into an illegal state, the whole transaction fails.
 
 ### Isolation #DEF 
-Isolation ensures that all transactions run in an isolated environment. That enables running transactions concurrently because transactions don’t interfere with each other.
+<mark style="background: #FF5582A6;">Isolation ensures that all transactions run in an isolated environment.</mark> That enables running transactions concurrently because transactions don’t interfere with each other.
 
 ### Durability #DEF 
 <mark style="background: #FFF3A3A6;">Durability guarantees that once the transaction completes and changes are written to the database, they are persisted.</mark> This ensures that data within the system will persist even in the case of system failures like crashes or power outages.
@@ -77,7 +77,13 @@ Users who write specialized database applications such as computer-aided design 
 
 # Data Models #EXP
 A collection of tools that help with describing data, relations between data, data constraints and semantics.
-There are multiple data models such as [[#ER Model EXP]], Relational Model, there are older models that are still used such as Network Model and Hierarchical Model.
+There are multiple data models such as [[#ER Model EXP | ER Model]], Relational Model, there are older models that are still used such as Network Model and Hierarchical Model.
 
 ## ER Model #EXP 
+This model uses objects known as Entities and the relationship between them to display [[#data DEF  | data]]. 
 
+### Entity #DEF 
+An object in the which is distinguishable from other objects.
+
+### Relationship #DEF 
+Association between several entities.
