@@ -1,3 +1,8 @@
+
+# Source:
+[[Resources]] contains Info on EVERYTHING in it’s rawest form that sir himself put in the PPT
+
+
 # DATA, DB AND MANAGEMENT 
 ## data #DEF
 It is a raw material(information), that exists in any file format.
