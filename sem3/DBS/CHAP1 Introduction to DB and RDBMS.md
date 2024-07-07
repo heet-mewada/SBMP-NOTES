@@ -260,3 +260,19 @@ Here the branch  from the first table is connected to the 2nd and the amount of 
 - Detailed structure knowledge is required 
 - Lack of structural independence
 
+# DB Engine #EXP 
+A database engine is the underlying software that the DBMS uses to create, update, read and delete data from a DB.
+
+a DBE includes:
+- Storage Manager
+- Query Processor
+- Transaction Manager
+
+# Storage Manager #EXP 
+Storage manager is a program module that provides the interface between the low-level data stored in the database and the application programs and queries submitted to the system.
+
+The Storage manager is responsible for the following tasks:
+- Interaction with the system file manager
+- Efficient storing, retrieving and updating of data
+
+## Functions of storage manager
