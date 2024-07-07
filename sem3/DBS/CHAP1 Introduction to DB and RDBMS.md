@@ -90,6 +90,27 @@ The ability to change the physical schema without changing the logical schema.
 
 # Instance #DEF 
 The content of the DB at a point of time.
+
+# DBA #DEF 
+The person with central control of the data and the processes that control it is called the DBA or DataBase Administrator.
+
+## Works of DBA #EXP 
+- ### Schema Definition:
+	 The DBA creates the original structure of the DB by using a set of defining statements in DDL.
+- ### Storage structure and access-method definition.
+	  The DBA decides how the data is presented in the DB
+- ### Schema and physical-organization  modification.
+	 The DBA modifies the schema and physical organization of the DB in accordance to the needs of the DB
+- ### Granting of authorization.
+	 The DBA decides who gets certain privileges in the DB, i.e. end users cannot access the DB outside of the application while [[#Application Programmers DEF | application programmers]] or [[#Sophisticated Users DEF | sophisticated users]] can access the DB.
+- ### Routine maintenance.
+	 It is the job of the DBA to maintain the DB.
+- ### Assisting AP.
+	 DBA helps [[#Application Programmers DEF | application programmers]] to make applications.
+- ### Backup and Restore
+	 DBA makes backups of the DB so that the data if ever lost can be restored from when the DB was backed up. DBA should routinely make backups.
+
+
 # Types of Users 
 ## Naive Users #DEF 
 Unsophisticated users(end users) that are not concerned with the DB or its programs. These users interact with the DB through an interface but cannot modify the DB in any way except their own entry.
@@ -113,5 +134,7 @@ This model uses objects known as Entities and the relationship between them to d
 - ### Relationship #DEF 
 	Association between several entities. 
 
+## ER #DIA 
 
+![[Example of ER.png| Example of ER model]]
 
