@@ -64,7 +64,7 @@
 
 
 ## ACID #EXM 
-![[ACID EXAMPLE.png | Acid Example]] 
+![IMAGE][ACIDEXP.png| Acid Example]
 
 # Abstraction #EXP 
 
@@ -76,7 +76,7 @@
 	 Describes how data looks to the end user, i.e. hides unnecessary data for the end user that need not be seen by them or other end users for security purposes.
 
 # Abstraction Levels #DIA 
-![[Abstraction.png| Data Model]]
+![IMAGE][Abstraction.png| Data Model]
 
 # Schema #EXP 
 - ## Logical Schema #EXP 
@@ -87,6 +87,8 @@
 
 ## Data Independence #DEF 
 The ability to change the physical schema without changing the logical schema.
+
+![Image][Dataindependence.png]
 
 # Instance #DEF 
 The content of the DB at a point of time.
@@ -136,7 +138,7 @@ This model uses objects known as Entities and the relationship between them to d
 
 ## ER #DIA 
 
-![[Example of ER.png| Example of ER model]]
+![IMAGE][EXAMPLEER.png| Example of ER model]
 
 ## Advantages of ER #EXP 
 - Easy to develop relations 
@@ -182,7 +184,7 @@ Expresses the number of entities are associated with the entity in question.
 Occurs with unary relationships, the relationship may be [[#Mapping Cardinalities DEF | One to One]], [[#Mapping Cardinalities DEF | One to Many]],[[#Mapping Cardinalities DEF | Many to One]] or [[#Mapping Cardinalities DEF | Many to Many]] as long as the relationship is unary. Recursive Relationships are those associations that are related in the space between 2 entities, i.e. person A **is married to** person B. “is married to” here is recursive relationship. 
 
 # ER diagram symbols #DIA 
-![[SymbolER1.png | ER symbols]] ![[SymbolER2.png | ER2]] 
+![IMAGE][SymbolER1.png | ER symbols] ![IMAGE][SymbolER2.png | ER2] 
 
 # Relationalship Model #EXP 
 Represents data and relationships among data by a collection of tables.
@@ -234,7 +236,7 @@ Here the branch  from the first table is connected to the 2nd and the amount of 
 
 - each segment that has offshoot segments is called a parent segment and that offshoot is called a child segment.
 
-![[HM.png| Hierarchical Model]]
+![IMAGE][HM.png| Hierarchical Model]
 
 ## Advantages 
 - High speed of access to large data sections
@@ -250,7 +252,7 @@ Here the branch  from the first table is connected to the 2nd and the amount of 
 # Network Model #EXP 
 - This model depicts data logically in [[#Mapping Cardinalities DEF | Many to Many]] relationships. That is parents can have multiple children and children can have more than one parent.
 
-![[NM.png| Network Model]]
+![IMAGE][NM.png| Network Model]
 ## Advantages
 - Conceptually simple and easy to design
 - Can handle 1:n as well as n:n relationships
