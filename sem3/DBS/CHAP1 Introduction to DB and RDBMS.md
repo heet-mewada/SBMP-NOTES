@@ -278,3 +278,9 @@ The Storage manager is responsible for the following tasks:
 - Efficient storing, retrieving and updating of data
 
 ## Functions of storage manager
+- Authorization Manager:
+	 It ensures role-based access control, i.e. it checks whether the particular person is privileged to perform the requested operation or not.
+- Integrity Manager: 
+	 It checks the integrity constraints when the database is modified.
+
+# Query Processor 
