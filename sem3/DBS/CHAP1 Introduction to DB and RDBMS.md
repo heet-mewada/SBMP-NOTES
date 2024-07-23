@@ -64,7 +64,7 @@
 
 
 ## ACID #EXM 
-![IMAGE](<ACIDEXP.png| Acid Example>)
+![image](<ACIDEXP.png| Acid Example>)
 
 # Abstraction #EXP 
 
