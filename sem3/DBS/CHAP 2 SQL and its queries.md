@@ -5,7 +5,7 @@
 
 
 # SQL #DEF 
-Structured query language is the database language by which we can perform operations on the database, we can also use SQL to create a database. 
+Structured query language is the [[CHAP1 Introduction to DB and RDBMS#DATA, DB AND MANAGEMENT || database]] language by which we can perform operations on the database, we can also use SQL to create a database. 
 
 ## SQL Commands #EXP 
 SQL commands are like instructions to a table, it is used to interact with the table/database. It is used to perform specific tasks such as dropping, altering, etc. it can even be used to modify permissions of specific users.
