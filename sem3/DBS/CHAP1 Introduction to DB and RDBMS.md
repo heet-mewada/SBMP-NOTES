@@ -60,6 +60,11 @@ A Relational Database Management System (RDBMS) is a program that allows you to
 	RDBMS allows the DBA to give certain privileges to people, namely view, edit and manage privileges which allows those users to access the database in the way that privilege intends. 
 
 
+# Keys  #EXP 
+## Primary Key #DEF 
+
+
+
 ## ACID #EXP 
 
 - ### Atomicity #DEF
