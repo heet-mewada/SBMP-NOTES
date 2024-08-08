@@ -16,9 +16,10 @@
 
 # DATA, DB AND MANAGEMENT 
 - ## data #DEF
-It is a raw material(information), that exists in any file format.
+It is raw material(information), that exists in any file format.
+Data refers to information, facts, or figures that can be collected, stored, and analyzed. It can be in various forms such as numbers, text, images, or any other format that can be processed by computers.
 - ## DB #DEF 
-It is the collection of structured information or data usually in table format.
+A database is an organized collection of structured data that is stored and accessed electronically from a computer system.
 - ## DBMS #DEF 
 <mark style="background: #D2B3FFA6;">A Database Management System (DBMS) is a software system that is designed to manage and organize data in a structured manner.</mark> It allows users to create, modify, and query a database, as well as manage the security and access controls for that database.
 - ## RDBMS #DEF 
