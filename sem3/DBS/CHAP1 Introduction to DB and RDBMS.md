@@ -89,7 +89,15 @@ Key used for unique identification in RDBMS. It cannot have NULL values and is i
 Key used for unique identification in RDBMS. it can have NULL values and isnt immutable.
 Once a value for it is entered, it cannot be repeated in another row.
 ## Candidate Key #DEF 
+Subset of super key,
+## Super Key #DEF 
 A key is a set of one or more columns that can be used to uniquely identify a row within a table. 
+## Foreign Key #DEF 
+A key used to refer to the primary of another table that a table is joint to.
+## Composite Key #DEF 
+A key made up of 2 or more attributes, that together act like an unique key.
+## Compound Key #DEF 
+A composite key thats made up with foreign keys.
 
 # Abstraction #EXP 
 
