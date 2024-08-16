@@ -24,7 +24,27 @@ A database is an organized collection of structured data that is stored and acce
 <mark style="background: #D2B3FFA6;">A Database Management System (DBMS) is a software system that is designed to manage and organize data in a structured manner.</mark> It allows users to create, modify, and query a database, as well as manage the security and access controls for that database.
 - ## RDBMS #DEF 
 A Relational Database Management System (RDBMS) is a program that allows you to create, update, and administer a relational database. <mark style="background: #FFF3A3A6;">Most RDBMSs use the SQL language to access the database.</mark> A relational database is a type of database that stores and provides access to data points that are related to one another. Relational databases are based on the relational model, an intuitive, straightforward way of representing data in tables.
-	<mark style="background: #FFF3A3A6;">It allows users to set up relationship between many tables at once which is not possible in DBMS.</mark>
+<mark style="background: #FFF3A3A6;">It allows users to set up relationship between many tables at once which is not possible in DBMS.</mark>
+
+# Advantages of DBMS over file processing #EXP 
+## Data Integrity #EXP 
+DBMS provides mechanisms to enforce data integrity constraints, such as uniqueness, this ensures that the data stored in the database remains accurate data storage.
+## Data Security #EXP 
+<mark style="background: #FFF3A3A6;">DBMS provides features for data security such as user authentication, authorization and access control.</mark> Encryption and other security measures can also be implemented to protect sensitive data. Allowing [[#DBA DEF | database administrators]] to control the flow of data.
+## Data Independence #EXP 
+<mark style="background: #FFF3A3A6;">DBMS separates the logical and physical structure of data, providing data independence. </mark>This means that applications can interact with the data without having to know how the data is stored internally.
+## Concurrent Access #EXP 
+<mark style="background: #FFF3A3A6;">DBMS handles concurrent access to the database by multiple users or applications at once.</mark> Ensuring that transactions are executed in an isolated and consistent manner.
+## Transaction Management #EXP 
+DBMS has concurrent access to ensure transactions occur smoothly, providing features such as locking and concurrency control. 
+## Data Consistency #EXP 
+<mark style="background: #FFF3A3A6;">DBMS eliminates data redundancy by storing data in a centralized repository. It also provides features like normalization to reduce redundancies further. </mark>This helps to ensure data consistency and avoids anomalies.
+## Data Sharing and Integration #EXP 
+<mark style="background: #FFF3A3A6;">DBMS enables data sharing and integration across multiple applications and users. Different applications can access and manipulate the same data concurrently</mark>, allowing for better collaboration and integrity of information.
+## Data backup and recovery #EXP 
+DBMS provides built in features for data backup, recovery, and disaster recovery. Admins can schedule backups regularly and data restores in case of failures or anomalies.
+## Scalability and Performance Optimization #EXP 
+DBMS is designed to scale with the growth of data and users, it provides features such as indexing, query optimization and partitioning to improve performance and scalability.
 
 # DBMS AND RDBMS #DIFF 
 |         Points          | DBMS                                     | RDBMS                                             |
@@ -60,28 +80,16 @@ A Relational Database Management System (RDBMS) is a program that allows you to
 	RDBMS allows the DBA to give certain privileges to people, namely view, edit and manage privileges which allows those users to access the database in the way that privilege intends. 
 
 
+
+
 # Keys  #EXP 
 ## Primary Key #DEF 
-
-
-
-## ACID #EXP 
-
-- ### Atomicity #DEF
-	==Atomicity guarantees that all of the commands that make up a transaction are treated as a single unit and either succeed or fail together.== This is important as in the case of an unwanted event, like a crash or power outage, we can be sure of the state of the database. The transaction would have either completed successfully or been rolled back if any part of the transaction failed.
-
-- ### Consistency #DEF 
-	<mark style="background: #FFB8EBA6;">Consistency guarantees that changes made within a transaction are consistent with database constraints.</mark> This includes all rules, constraints, and triggers. If the data gets into an illegal state, the whole transaction fails.
-
-- ### Isolation #DEF 
-	<mark style="background: #FF5582A6;">Isolation ensures that all transactions run in an isolated environment.</mark> That enables running transactions concurrently because transactions don’t interfere with each other.
-
-- ### Durability #DEF 
-	<mark style="background: #FFF3A3A6;">Durability guarantees that once the transaction completes and changes are written to the database, they are persisted.</mark> This ensures that data within the system will persist even in the case of system failures like crashes or power outages.
-
-
-## ACID #EXM 
-![Image](ACIDEXP.png)
+Key used for unique identification in RDBMS. It cannot have NULL values and is immutable. Once a value for it is entered, it cannot be repeated in another row.
+## Unique Key #DEF 
+Key used for unique identification in RDBMS. it can have NULL values and isnt immutable.
+Once a value for it is entered, it cannot be repeated in another row.
+## Candidate Key #DEF 
+A key is a set of one or more columns that can be used to uniquely identify a row within a table. 
 
 # Abstraction #EXP 
 
