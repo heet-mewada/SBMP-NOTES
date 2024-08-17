@@ -4,6 +4,8 @@
 
 # #IMP 
 - [[#DATA, DB AND MANAGEMENT | Definitions of data, database and other important terms]]
+- [[#Advantages of DBMS over file processing EXP | Advantages of DBMS over file processing]]
+- [[#Keys EXP | Keys]]
 - [[#DBMS AND RDBMS DIFF | DBMS and RDBMS differences]]
 - [[#Features of RDBMS | Features of RDBMS]]
 - [[#Abstraction EXP | Abstraction and its diagrams!]]
