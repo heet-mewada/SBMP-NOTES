@@ -352,6 +352,14 @@ It manages the file space and the data structure used to represent the informati
 ## Buffer Manager #EXP 
 It is responsible for cache memory and the transfer of data between the secondary storage and main memory
 
+# Disk Storage #EXP 
+Containing the following components
+- data files for storing data
+- data dictionary containing information about the structure of any database object
+- indices for faster retrieval of data
+- statistical data for organization
+
+
 # END OF CHAP 
 [[#IMP | Go back to top]]
 
