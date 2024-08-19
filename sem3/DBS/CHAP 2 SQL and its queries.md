@@ -39,5 +39,20 @@ SQL commands are like instructions to a table, it is used to interact with the t
 	 - Rollback
 	 - Savepoint
 
+# DDL Commands #DEF 
 
+| Command  | Description                                                                      | Syntax                                                   |
+| -------- | -------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| CREATE   | creates database or objects                                                      | CREATE object object_name;                               |
+| DROP     | Delete objects from the database                                                 | DROP object object_name;                                 |
+| ALTER    | Alter the structure of the database                                              | ALTER TABLE table_name ADD column column_name data_type; |
+| TRUNCATE | Removes all records from a table, including the spaces allocated for the records | TRUNCATE TABLE table_name;                               |
+| RENAME   | Renames an object of the database                                                | RENAME TABLE old_table_name TO new_table_name;           |
+# DML Commands #DEF 
 
+| Command | Description                          | Syntax                                                   |
+| ------- | ------------------------------------ | -------------------------------------------------------- |
+| INSERT  | Insert data into table               | INSERT INTO table_name VALUES;                           |
+| UPDATE  | Update the existing data in a table  | UPDATE table_name SET column1= value1, column2 = value2; |
+| DELETE  | Delete records from a database table | DELETE FROM table_name;                                  |
+# DCL Commands #DEF 
