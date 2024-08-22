@@ -152,9 +152,9 @@ The person with central control of the data and the processes that control it is
 ## Naive Users #DEF 
 Unsophisticated users(end users) that are not concerned with the DB or its programs. These users interact with the DB through an interface but cannot modify the DB in any way except their own entry.
 ## Application Programmers #DEF 
-Users that interact with the DB using programs through [[#DML DEF]](Data Manipulation Language) and RAD(Rapid development tools). RAD allows application programmers to construct forms and reports with minimal efforts.
+Users that interact with the DB using programs through [[#DML DEF| DML]](Data Manipulation Language) and RAD(Rapid development tools). RAD allows application programmers to construct forms and reports with minimal efforts.
 ## Sophisticated Users #DEF 
-Users that interact with the DB using data query languages or by using tools like data analysis tools. They don’t interact using programs like [[#Application Programmers DEF]] but interact using [[#SQL DEF]] queries that directly interact with the query processor.
+Users that interact with the DB using data query languages or by using tools like data analysis tools. They don’t interact using programs like [[#Application Programmers DEF| AP]] but interact using [[#SQL DEF | SQL]] queries that directly interact with the query processor.
 ## Specialized Users #DEF 
 Users who write specialized database applications such as computer-aided design systems, knowledge base and expert systems, systems that store data with complex data types.
 
@@ -198,10 +198,10 @@ Each entity has attributes, the particular properties that describe it. For each
 | Exmp   | Age for a person can only one possible data value for a singular person at a time | College degree can multiple possible data values for a singular person at a time |
 
 ## Stored vs Derived Attributes #DIFF 
-| Points | Stored Attributes                                     | Derived Attributes                                           |
-| ------ | ----------------------------------------------------- | ------------------------------------------------------------ |
-| Def    | Attributes from which derived attributes are derived. | Attributes that can be determined by another attribute.      |
-| Exmp   | Date of Birth is a stored attribute                   | Age is a derived attribute that can be determined by the DoB |
+| Points | Stored Attributes                                          | Derived Attributes                                           |
+| ------ | ---------------------------------------------------------- | ------------------------------------------------------------ |
+| Def    | Attributes from which derived attributes are derived from. | Attributes that can be determined by another attribute.      |
+| Exmp   | Date of Birth is a stored attribute                        | Age is a derived attribute that can be determined by the DoB |
 
 ## Mapping Cardinalities #DEF 
 Expresses the number of entities are associated with the entity in question.
