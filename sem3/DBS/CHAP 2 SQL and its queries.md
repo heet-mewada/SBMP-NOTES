@@ -92,7 +92,7 @@ SQL commands are like instructions to a table, it is used to interact with the t
 - Numeric Types
 	 - INT (SIZE): Integer type, optional display size;
 	 - FLOAT: single precise floating point number;
-	 -  DOUBLE: double precision floating point number;
+	 - DOUBLE: double precision floating point number;
 - Date and time types
 	 - DATE: date value  in ‘YYYY-MM-DD’ format
 	 - TIME: in ‘hh:mm’ format
