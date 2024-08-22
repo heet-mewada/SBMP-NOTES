@@ -71,9 +71,9 @@ SQL commands are like instructions to a table, it is used to interact with the t
 | SAVEPOINT         | Creates a savepoint within the current transaction | SAVEPOINT savepoint_name;           |
 # DQL Commands #DEF 
 
-| Command | Description                                | Syntax                            |
-| ------- | ------------------------------------------ | ------------------------------- |
-| Select  | It is used to display tables from databa SELECT column1 FROM table_name; e  1  |
+| Command | Description                            | Syntax                          |
+| ------- | -------------------------------------- | ------------------------------- |
+| Select  | It is used to display tables from data | SELECT column1 FROM table_name; |
 # Important SQL commands #EXP 
 
 | Command                                                         | Example                                                                                     |
@@ -153,3 +153,80 @@ PL/SQL combines the data manipulating power of SQL with the procedural capabilit
 	 These are reusable program units stored in the database. Procedures perform an action, while functions returns a value.
 ### Example of PL/SQL #EXM 
 ![[Pasted image 20240822065419.png | Example of PL/SQL function]]
+# Functions in PL/SQL #EXP 
+There are 2 types of functions in PL/SQL
+- User-defined functions
+- Ready made functions
+[[Functions in PL_SQL.canvas| Hierarchy of Functions in PL_SQL]]
+
+## Single Row Functions #EXP 
+Single row or scalar functions return a value for every row that is processed in a query.
+
+### String Functions #EXP 
+- Initcap(str): This function is used to convert the first letter of string to capital letter
+- Concatenate (Exp, Exp): This function is used to append two or more literal expression with eachother
+- Replace: In this function, the 1st set of character is replaced with the 2nd set of characters given in string
+- Lower(‘string’): This function is to convert all upper case letters to lower case in given string
+- Substring(‘string‘, starting char_no, no. of characters): This function is used to return the part of string from given index to ending index.
+- Translate(‘string’, ‘letter’, ‘letter’): This function is used to replace a single character.
+- Ltrim and Rtrim: These functions are used to trim out strings from left side and right side respectively
+- Upper(‘string’): This function is used to convert all lower case letters to upper case in given string
+- CHR(ASCII_VALUE): This function is used to return the character assigned to given ASCII number.
+- LPAD(‘string’, index,’replace’): This function is used to pad given symbol for given number of times on the LEFT
+- RPAD(‘string’, index,’replace’): This function is used to pad given symbol for given number of times on the RIGHT
+### Arithmetic Functions #EXP 
+
+| Function Name | Description                                                                       |
+| ------------- | --------------------------------------------------------------------------------- |
+| ABS           | This function returns the absolute value of given number                          |
+| CEIL          | Ceil function returns the smallest integer greater than or equal to passed number |
+| EXP(n)        | Exp returns exponential value of given number                                     |
+| FLOOR         | This function returns largest integer equal or less than number passed            |
+| LN(a)         | This function returns natural log of a value                                      |
+| log(a,b)      | This function returns log of b to the base of a                                   |
+| MOD(a,b)      | This function returns reminder of the division between a and b                    |
+| POWER(a,b)    | This function returns the value obtained after $$a^b$$                            |
+| ROUND(a,b)    | This function returns the rounded value of a to the decimal places.               |
+| SIGN(a)       | This function shows negative or positive number                                   |
+| SIN(a)        | This function returns value obtained after $$sin(a)$$                             |
+| SQRT(a)       | This function returns value obtained after $$\sqrt a$$                            |
+| TRUNC(a,b)    | This function returns value obtained after truncated a to b decimal places        |
+
+## Group Functions #EXP 
+These functions group the rows of data based on the values returned by the query.
+
+These functions group are used to calculate aggregate values like total or average.
+
+### Date and time functions #EXP 
+
+| Function Name    | Description                                                                             |
+| ---------------- | --------------------------------------------------------------------------------------- |
+| ADD_MONTHS       | Adds the specified number of months to a date                                           |
+| LAST_DAY         | Returns the last day of a specified month                                               |
+| MONTHS_INBETWEEN | Calculates the number of months between two dates                                       |
+| NEW_TIME         | Returns the date/time value with time shifted as requested                              |
+| NEXT_DAY         | Returns the date of the 1st week day specified that is later than the date              |
+| ROUND            | Returns the date rounded by specified format unit                                       |
+| SYSDATE          | Returns the current date and time in the oracle server                                  |
+| TRUNC            | Truncates the specified date of its time portion according to the format unit provided. |
+### Aggregate functions #EXP 
+
+| Function Name | Usage                                       |
+| ------------- | ------------------------------------------- |
+| AVG(EXP)      | Returns average of given expression         |
+| COUNT(EXP)    | Counts the row defined by expression        |
+| COUNT(\*)     | Counts all rows in table                    |
+| MIN(EXP)      | Returns minimal value defined by expression |
+| MAX(EXP)      | Returns maximum value defined by expression |
+| SUM(EXP)      | Returns sum value of given column           |
+# Queries using clauses #EXP 
+## Group by clause #EXP 
+It is used with the select query, following the where clause but preceeding order by clause.
+
+The group by field generally has repeated values or records
+
+Syntax: select * from table_name where (condition) group by column1, column2, column3;
+
+## Having clause #EXP 
+The having clause enables you to specify conditions that filter which group results appear in results.
+

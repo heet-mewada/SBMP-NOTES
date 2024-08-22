@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"494dda4e7356ceff","type":"text","text":"Oracle Functions","x":-125,"y":-30,"width":250,"height":60,"color":"4"},
+		{"id":"f4b19c5991558e70","type":"text","text":"User_defined","x":-375,"y":80,"width":250,"height":60,"color":"1"},
+		{"id":"d41026981ffb1155","type":"text","text":"Built in Functions","x":125,"y":80,"width":250,"height":60,"color":"5"},
+		{"id":"fef60dd1e7bc8292","type":"text","text":"[[CHAP 2 SQL and its queries#Single Row Functions EXP | Single Row]] ","x":-40,"y":200,"width":250,"height":60,"color":"6"},
+		{"id":"d5e7414e8d4bcd87","type":"text","text":"[[CHAP 2 SQL and its queries#Group Functions EXP | Group/Multirow ]] ","x":250,"y":200,"width":250,"height":60,"color":"6"}
+	],
+	"edges":[
+		{"id":"167d4a10750c837b","fromNode":"494dda4e7356ceff","fromSide":"left","toNode":"f4b19c5991558e70","toSide":"top"},
+		{"id":"3009f2798381837e","fromNode":"494dda4e7356ceff","fromSide":"right","toNode":"d41026981ffb1155","toSide":"top"},
+		{"id":"dfc89ec485ddffdc","fromNode":"d41026981ffb1155","fromSide":"bottom","toNode":"fef60dd1e7bc8292","toSide":"top"},
+		{"id":"b5a8f853a95a273b","fromNode":"d41026981ffb1155","fromSide":"bottom","toNode":"d5e7414e8d4bcd87","toSide":"top"}
+	]
+}
