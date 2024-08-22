@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"105c92691897d927","type":"text","text":"[[CHAP 2 SQL and its queries#Key Constraints EXP | Key Constraints]]","x":-440,"y":60,"width":250,"height":60,"color":"6"},
+		{"id":"8ee8aa89ca9f0861","type":"text","text":"[[CHAP 2 SQL and its queries#Referential Integrity Constraints EXP | Referential Integrity Constraints]]","x":-440,"y":-280,"width":250,"height":80,"color":"4"},
+		{"id":"e99482c822780915","type":"text","text":"[[CHAP 2 SQL and its queries#Domain Constraints EXP| Domain Constraints]]","x":180,"y":60,"width":250,"height":60,"color":"1"},
+		{"id":"2cc6a21b396e4f1d","type":"text","text":"INTEGRITY CONSTRAINTS ","x":-100,"y":-80,"width":250,"height":60,"color":"#25503e"},
+		{"id":"20b42a670146f007","type":"text","text":"[[CHAP 2 SQL and its queries#Check Constraints EXP| Check Constraints]]","x":180,"y":-330,"width":250,"height":60,"color":"2"}
+	],
+	"edges":[
+		{"id":"8ccf8c04e100b50a","fromNode":"2cc6a21b396e4f1d","fromSide":"left","toNode":"105c92691897d927","toSide":"right"},
+		{"id":"baf85e4778b10c3d","fromNode":"2cc6a21b396e4f1d","fromSide":"left","toNode":"8ee8aa89ca9f0861","toSide":"right"},
+		{"id":"1ae838e536d13208","fromNode":"2cc6a21b396e4f1d","fromSide":"right","toNode":"20b42a670146f007","toSide":"left"},
+		{"id":"964d05c4092d4a4d","fromNode":"2cc6a21b396e4f1d","fromSide":"right","toNode":"e99482c822780915","toSide":"top"}
+	],
+	"metadata":{}
+}

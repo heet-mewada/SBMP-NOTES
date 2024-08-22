@@ -56,3 +56,100 @@ SQL commands are like instructions to a table, it is used to interact with the t
 | UPDATE  | Update the existing data in a table  | UPDATE table_name SET column1= value1, column2 = value2; |
 | DELETE  | Delete records from a database table | DELETE FROM table_name;                                  |
 # DCL Commands #DEF 
+
+| Command | Description                      | Syntax                                                       |
+| ------- | -------------------------------- | ------------------------------------------------------------ |
+| GRANT   | Assigns new privileges to a user | GRANT privilege ON object_name TO user \[with grant option]; |
+| REVOKE  | Removes a privilege from a user  | REVOKE \[grant option] privilege ON object_name FROM user;   |
+# TCL Commands #DEF 
+
+| Command           | Description                                        | Syntax                              |
+| ----------------- | -------------------------------------------------- | ----------------------------------- |
+| BEGIN TRANSACTION | Starts a new transaction                           | BEGIN TRANSACTION transaction_name; |
+| COMMIT            | Saves all changes made during the transaction      | COMMIT;                             |
+| ROLLBACK          | Undoes all the changes made during the transaction | ROLLBACK;                           |
+| SAVEPOINT         | Creates a savepoint within the current transaction | SAVEPOINT savepoint_name;           |
+# DQL Commands #DEF 
+
+| Command | Description                                | Syntax                            |
+| ------- | ------------------------------------------ | ------------------------------- |
+| Select  | It is used to display tables from databa SELECT column1 FROM table_name; e  1  |
+# Important SQL commands #EXP 
+
+| Command                                                         | Example                                                                                     |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| [[CHAP 2 SQL and its queries#DQL Commands DEF \| SELECT]]       | SELECT * FROM table_name;                                                                   |
+| [[CHAP 2 SQL and its queries#DML Commands DEF \| INSERT]]       | INSERT INTO table_name VALUES value1, value2;                                               |
+| [[CHAP 2 SQL and its queries#DML Commands DEF \| UPDATE]]       | UPDATE employees SET attribute = “value” WHERE attribute = “thisvalue”;                     |
+| [[CHAP 2 SQL and its queries#DML Commands DEF \| DELETE]]       | DELETE FROM employees WHERE attribute = “thisvalue”;                                        |
+| [[CHAP 2 SQL and its queries#DDL Commands DEF \| CREATE TABLE]] | CREATE TABLE employees ( employee_id INT PRIMARY KEY, first_name VARCHAR(50) );             |
+| [[CHAP 2 SQL and its queries#DDL Commands DEF \| ALTER TABLE]]  | ALTER TABLE employees ADD COLUMN phone VARCHAR(20);                                         |
+| [[CHAP 2 SQL and its queries#DDL Commands DEF \| DROP TABLE]]   | DROP TABLE employees                                                                        |
+| WHERE                                                           | SELECT * FROM table_name WHERE attribute = “value”;                                         |
+| ORDER BY                                                        | SELECT * FROM table_name ORDER BY attribute DESC/ASC;                                       |
+| JOIN                                                            | SELECT e.first, e.last, d.depart FROM employees e JOIN department d ON e.depart = d.depart; |
+# Datatypes in MySQL #EXP 
+- Numeric Types
+	 - INT (SIZE): Integer type, optional display size;
+	 - FLOAT: single precise floating point number;
+	 -  DOUBLE: double precision floating point number;
+- Date and time types
+	 - DATE: date value  in ‘YYYY-MM-DD’ format
+	 - TIME: in ‘hh:mm’ format
+	 - DATETIME: combined format
+	 - TIMESTAMP: in DATETIME format
+	 - YEAR: 4 digit year format
+- String types
+	 - CHAR(SIZE): Fixed length character string
+	 - VARCHAR(SIZE): Variable length character string
+	 - TEXT: Variable length character string (larger)
+
+# Integrity Constraints #EXP 
+There are 4 types of integrity constraints.
+[[INTEGRITY CONSTRAINTS.canvas|INTEGRITY CONSTRAINTS]] 
+## Key Constraints #EXP 
+Keys are the entity set that is used to identify an entity within its entry.
+
+An entity set can have multiple keys but out of which one key needs to be primary key, a primary key needs contain a unique value in relational database. 
+
+When  a primary key contains a repeated value, it is not allowed and as such key constraints is implemented.
+## Domain Constraints #EXP 
+Domain constraints can be defined as the definition of a valid set of values for an attribute.
+
+The data type of domain includes string, characters, integer, etc. the value of the attribute must be available in the corresponding table.
+
+If the value of attribute is not found then domain constraint is implemented.
+
+## Referential Integrity Constraints #EXP 
+A referential integrity constraint is specified between two tables.
+
+In referential integrity constraints, if a foreign key in table 1 refers to primary key of table 2 then every value of foreign key needs to be unique, if it is not then referential integrity constraint is implemented.
+
+## Check Constraints #EXP 
+The check constraint is used to limit the value range that can be placed in a column.
+
+If you define a check constraint on a column it will allow only certain values for this column.
+
+if you define a check constraint on a table, it can limit the values in certain columns based on values in other columns in the row.
+# Procedural Language/Structured Query Language 
+PL/SQL is Oracle Corporation’s procedural extension for SQL and the oracle relational database application.
+
+It allows you to write procedural logic such as loops, conditions and exception handling directly within SQL commands.
+
+PL/SQL combines the data manipulating power of SQL with the procedural capabilities of a programming language, making it a powerful tool for managing databases.
+
+## Key concepts of PL/SQL
+- Blocks
+	 PL/SQL programs are made of blocks, which can be anonymous blocks, procedural blocks, functions. triggers, etc.
+- Variables and Constants
+	 PL/SQL allows you to declare variables and constants to store data temporarily permanently.
+- Control Structures
+	 PL/SQL includes standard programming constructs like loops, conditional statements and more.
+- Exceptional handling
+	 You can handle errors and exceptions using exception blocks.
+- Cursors
+	 Cursors are used for traversing the records in result set. PL/SQL provides both implicit and explicit cursors.
+- Procedures and Functions 
+	 These are reusable program units stored in the database. Procedures perform an action, while functions returns a value.
+### Example of PL/SQL #EXM 
+![[Pasted image 20240822065419.png | Example of PL/SQL function]]
