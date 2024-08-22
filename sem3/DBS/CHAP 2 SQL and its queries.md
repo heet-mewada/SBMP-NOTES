@@ -230,3 +230,19 @@ Syntax: select * from table_name where (condition) group by column1, column2, co
 ## Having clause #EXP 
 The having clause enables you to specify conditions that filter which group results appear in results.
 
+Syntax: select * from table_name where (condition) group by column1, column2, column3 having condition1, condition2;
+
+## Order by clause #EXP 
+The SQL order by clause is used to sort the data in ascending order or descending order, based on the columns.
+It sorts in ascending by default.
+to sort in descending, DESC keyword must be used.
+
+Syntax: select * from table_name order by column1, column2 ASC;
+
+# Subqueries #EXP 
+Subquery is a form of an SQL statement that appears inside another SQL statement. It is also called nested queries.
+The statement containing the subquery is called parent statement.
+## Example of subquery #EXM 
+select cust_no, name from cust_dtls where cust_no in (select cust_no, acc_no, acc_bal from cust_dtls where acc_no < A-4 AND acc_bal < 25000);
+
+
