@@ -8,7 +8,9 @@
 		{"id":"610601237bf984ff","x":-800,"y":-40,"width":250,"height":60,"type":"text","text":"Left scan"},
 		{"id":"07b3f08f5c3977a3","x":-345,"y":20,"width":460,"height":180,"color":"6","type":"text","text":"1. Repeat while a\\[left] lesser or equal a\\[loc] and left != loc \n\tleft = left -1;\n 2. if a\\[left]> a\\[loc], then interchange a\\[left] and a\\[loc]\n 3. loc = right, go to step 2."},
 		{"id":"59e9f781fe8af771","x":-240,"y":240,"width":250,"height":60,"color":"1","type":"text","text":"end of procedure"},
-		{"id":"9efcea67f9f6b22c","x":420,"y":-280,"width":250,"height":60,"color":"4","type":"text","text":""}
+		{"id":"9efcea67f9f6b22c","x":420,"y":-280,"width":250,"height":60,"color":"4","type":"text","text":"top = null"},
+		{"id":"f2ffd5181211e46c","x":420,"y":-160,"width":250,"height":60,"color":"6","type":"text","text":""},
+		{"id":"f8dee3b99004fd26","x":-925,"y":170,"width":305,"height":170,"color":"2","type":"text","text":"Best case: O(n log n)\nWorst Case: O(n^2)\nAverage case:O(N Log N)\nSpace:\nIn place: O(log n)\nRecursive: O(n)"}
 	],
 	"edges":[
 		{"id":"6184bc889f3cadda","fromNode":"77ff52f0399ba650","fromSide":"bottom","toNode":"644eac0817946b36","toSide":"top"},
@@ -16,6 +18,7 @@
 		{"id":"81fbad3afffe9072","fromNode":"e375d26887492a31","fromSide":"left","toNode":"7ce7ead73f83df66","toSide":"right"},
 		{"id":"f9fd88fe5586386e","fromNode":"610601237bf984ff","fromSide":"right","toNode":"07b3f08f5c3977a3","toSide":"left"},
 		{"id":"1224ea2dc6cf50cd","fromNode":"7ce7ead73f83df66","fromSide":"bottom","toNode":"07b3f08f5c3977a3","toSide":"top"},
-		{"id":"7882e0654146e027","fromNode":"07b3f08f5c3977a3","fromSide":"bottom","toNode":"59e9f781fe8af771","toSide":"top"}
+		{"id":"7882e0654146e027","fromNode":"07b3f08f5c3977a3","fromSide":"bottom","toNode":"59e9f781fe8af771","toSide":"top"},
+		{"id":"30459dd5c598efc1","fromNode":"9efcea67f9f6b22c","fromSide":"bottom","toNode":"f2ffd5181211e46c","toSide":"top"}
 	]
 }

@@ -9,7 +9,15 @@
 		{"id":"da5a12031059f726","type":"text","text":"Sorting","x":60,"y":-660,"width":250,"height":60},
 		{"id":"ae4487fef47eed0c","type":"text","text":"Search","x":1460,"y":-840,"width":250,"height":60},
 		{"id":"162f2bc996ccee59","type":"text","text":"Arrays","x":440,"y":-1220,"width":250,"height":60},
-		{"id":"6f55116c8f136f37","x":1920,"y":-420,"width":400,"height":400,"color":"4","type":"file","file":"Notes/examshit/DSTTTT/Binary Search.canvas"}
+		{"id":"6f55116c8f136f37","type":"file","file":"Notes/examshit/DSTTTT/Binary Search.canvas","x":1920,"y":-420,"width":400,"height":400,"color":"4"},
+		{"id":"6f92eab41dfdaf46","type":"file","file":"Notes/examshit/DSTTTT/Quicksort.canvas","x":540,"y":80,"width":400,"height":400,"color":"#a05727"},
+		{"id":"6b7c1a63544cdeee","x":-1080,"y":-1360,"width":400,"height":400,"color":"2","type":"file","file":"Notes/examshit/DSTTTT/Push Pop Peep.canvas"},
+		{"id":"c9b6ebde04d1d0ab","type":"text","text":"STACK\n- Function Management\nUsed to manage function calls and returns\n- Expression Evaluation\neVALUATES EXPRESSION IN POSTFIX\n- Backtracking algorithm\n- Used in deptfirst search for graph transversal\n- COnversaion of infix to postfix\n- Expressing parsings and manages nested structure","x":-1085,"y":-1880,"width":405,"height":360},
+		{"id":"273d225a103524a9","x":-160,"y":-1520,"width":250,"height":60,"type":"text","text":"Queues"},
+		{"id":"73eed9204d18cde1","x":-410,"y":-1390,"width":250,"height":200,"type":"text","text":"### Simple Queue\nUses fifo\nit adds element on the rear end and deletes at front"},
+		{"id":"2167e9e4b21117d3","x":-410,"y":-1760,"width":250,"height":160,"type":"text","text":"### Circular Queue \nA queue where the rear and front indices wrap around to the beginning of the queue"},
+		{"id":"ca34d3a360d7ff9e","x":240,"y":-1680,"width":250,"height":190,"type":"text","text":"### Priority Queue\nA queue where each element has a priority and elements are added or removed based on priority"},
+		{"id":"7241586a6169c3f4","x":90,"y":-1390,"width":275,"height":160,"type":"text","text":"### DEqueue\nAllows insertion and deletion of elements from both ends, allows adding from both aswell"}
 	],
 	"edges":[
 		{"id":"dec04339692edfbe","fromNode":"da5a12031059f726","fromSide":"bottom","toNode":"476ec6b86315ae4c","toSide":"top"},
@@ -18,6 +26,12 @@
 		{"id":"6e04272f96b7c2fb","fromNode":"ae4487fef47eed0c","fromSide":"bottom","toNode":"75d6efe1679ded6d","toSide":"top"},
 		{"id":"0563fe1c8a9874c2","fromNode":"162f2bc996ccee59","fromSide":"bottom","toNode":"da5a12031059f726","toSide":"top"},
 		{"id":"649de88645a7b38e","fromNode":"162f2bc996ccee59","fromSide":"bottom","toNode":"ae4487fef47eed0c","toSide":"top"},
-		{"id":"55b457419ce99f47","fromNode":"ae4487fef47eed0c","fromSide":"right","toNode":"6f55116c8f136f37","toSide":"top"}
+		{"id":"55b457419ce99f47","fromNode":"ae4487fef47eed0c","fromSide":"right","toNode":"6f55116c8f136f37","toSide":"top"},
+		{"id":"4cd7e3c3976e60bb","fromNode":"da5a12031059f726","fromSide":"bottom","toNode":"6f92eab41dfdaf46","toSide":"top"},
+		{"id":"b8325161ce14dcdf","fromNode":"c9b6ebde04d1d0ab","fromSide":"bottom","toNode":"6b7c1a63544cdeee","toSide":"top"},
+		{"id":"a1045102ce036a78","fromNode":"273d225a103524a9","fromSide":"left","toNode":"73eed9204d18cde1","toSide":"top"},
+		{"id":"5cf397dd6a980f2a","fromNode":"273d225a103524a9","fromSide":"top","toNode":"2167e9e4b21117d3","toSide":"right"},
+		{"id":"c4b4d2a47391f38f","fromNode":"273d225a103524a9","fromSide":"right","toNode":"ca34d3a360d7ff9e","toSide":"left"},
+		{"id":"59e24902e7952be1","fromNode":"273d225a103524a9","fromSide":"bottom","toNode":"7241586a6169c3f4","toSide":"left"}
 	]
 }
