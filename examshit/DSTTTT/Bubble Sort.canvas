@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"f285ed3ef9b4ebb8","type":"file","file":"Notes/examshit/DSTTTT/DST PT 1.canvas","x":-40,"y":-180,"width":400,"height":400},
+		{"id":"1be1974a44487f89","type":"text","text":"Bubble(data, n)\nData is array with N elements","x":-720,"y":-540,"width":300,"height":100,"color":"4"},
+		{"id":"c202cde14a089d21","type":"text","text":"Repeat steps 2 and 3 for k = 1 till N-1","x":-695,"y":-300,"width":250,"height":60,"color":"6"},
+		{"id":"09ed892484e5404a","type":"text","text":"Set PTR = 1","x":-695,"y":-180,"width":250,"height":60,"color":"6"},
+		{"id":"8726138e858a19b1","type":"text","text":"Repeat while PTR less than or equal to N-K\n1.if data\\[PTR] > Data\\[PTR] then interchange them. END OF IF\n2. set PTR = PTR +1;","x":-767,"y":-40,"width":395,"height":120,"color":"6"},
+		{"id":"c3c345d68006ddc8","type":"text","text":"EXIT","x":-695,"y":160,"width":250,"height":60,"color":"1"},
+		{"id":"7485276e7df9fdae","type":"text","text":"Best Case: O(n)\nAVerage case: O(n^2)\nWorst case: O(n^2)\nSpace: O(1)","x":-220,"y":-420,"width":280,"height":150,"color":"2"}
+	],
+	"edges":[
+		{"id":"7358243637c028a2","fromNode":"1be1974a44487f89","fromSide":"bottom","toNode":"c202cde14a089d21","toSide":"top"},
+		{"id":"01ca45c3b046c990","fromNode":"c202cde14a089d21","fromSide":"bottom","toNode":"09ed892484e5404a","toSide":"top"},
+		{"id":"eae0ccb4d232cacc","fromNode":"09ed892484e5404a","fromSide":"bottom","toNode":"8726138e858a19b1","toSide":"top"},
+		{"id":"08a146900219649d","fromNode":"8726138e858a19b1","fromSide":"bottom","toNode":"c3c345d68006ddc8","toSide":"top"}
+	]
+}

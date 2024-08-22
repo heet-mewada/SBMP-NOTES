@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"69d78757c8617998","type":"file","file":"Notes/examshit/DSTTTT/DST PT 1.canvas","x":-820,"y":-600,"width":400,"height":400},
+		{"id":"c71c7456afcbc1a0","type":"text","text":"Linear(Data, N, Item, Loc)","x":-160,"y":-600,"width":250,"height":60,"color":"4"},
+		{"id":"4f10302f202ad9d2","type":"text","text":"Insert item at the end of the data set data\\[N+1]= item;","x":-195,"y":-480,"width":320,"height":80,"color":"6"},
+		{"id":"1e950e5e744f890e","type":"text","text":"Set Loc = 1","x":-160,"y":-340,"width":250,"height":60,"color":"6"},
+		{"id":"d953ec3f86f873c9","type":"text","text":"Repeat while data\\[loc] != item;\nset loc = loc +1;\nend of loop","x":-205,"y":-240,"width":340,"height":120,"color":"6"},
+		{"id":"fe6757855eeaddcd","type":"text","text":"If loc - N = 1, then set LOC = 0","x":-160,"y":-80,"width":250,"height":60,"color":"6"},
+		{"id":"f7e0f312a0dd20ed","type":"text","text":"Exit","x":-160,"y":20,"width":250,"height":60,"color":"1"},
+		{"id":"29ecd8b3e0617308","type":"text","text":"Best case: O(1)\nWorst case: O(n)\nAverage case: O(n)\nSpace: O(1)","x":-745,"y":-80,"width":305,"height":130,"color":"2"}
+	],
+	"edges":[
+		{"id":"66c15a7ac6b9694d","fromNode":"c71c7456afcbc1a0","fromSide":"bottom","toNode":"4f10302f202ad9d2","toSide":"top"},
+		{"id":"10cbdf5fd8f27bcc","fromNode":"4f10302f202ad9d2","fromSide":"bottom","toNode":"1e950e5e744f890e","toSide":"top"},
+		{"id":"a21b6ee73f61879d","fromNode":"1e950e5e744f890e","fromSide":"bottom","toNode":"d953ec3f86f873c9","toSide":"top"},
+		{"id":"9f02b95c806f7967","fromNode":"d953ec3f86f873c9","fromSide":"bottom","toNode":"fe6757855eeaddcd","toSide":"top"},
+		{"id":"6c60a68998263b3b","fromNode":"fe6757855eeaddcd","fromSide":"bottom","toNode":"f7e0f312a0dd20ed","toSide":"top"}
+	]
+}

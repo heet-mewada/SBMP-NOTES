@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"fac1f404d7e2adde","type":"file","file":"Notes/examshit/DSTTTT/DST PT 1.canvas","x":-740,"y":-30,"width":400,"height":400},
+		{"id":"0cb9b50f08009704","type":"text","text":"Min(A, K, N, LOC)\nArray A, LOC = smallest element among A\\[K], A\\[K+1]…A\\[N];","x":-120,"y":-360,"width":420,"height":120,"color":"4"},
+		{"id":"4432167b5ec2d47f","type":"text","text":"Set min = A\\[K] and Loc = k","x":-60,"y":-160,"width":300,"height":60,"color":"6"},
+		{"id":"60a9c9a1e20850a2","type":"text","text":"Repeat for J = k +1,….N;\nIf MIN>A\\[J] then set MIN = A\\[J] and LOC = J;","x":-97,"y":0,"width":375,"height":100,"color":"6"},
+		{"id":"90a43ed9e453be9b","type":"text","text":"RETURN. Procedure.","x":-35,"y":260,"width":250,"height":60,"color":"1"},
+		{"id":"3e852f838f63569c","type":"text","text":"Repeat Step 2 and 3 for k = 1,2…,N-1;","x":440,"y":-360,"width":250,"height":60,"color":"4"},
+		{"id":"87f3ab9822bbd70b","type":"text","text":"CALL Min(A, K, N, LOC)","x":440,"y":-190,"width":250,"height":60,"color":"6"},
+		{"id":"46d782835384c98d","type":"text","text":"Set temp = a\\[k], a\\[k] = a\\[loc] and a\\[loc] = temp;","x":440,"y":-60,"width":250,"height":60,"color":"6"},
+		{"id":"cfee9ba050688385","type":"text","text":"END","x":440,"y":100,"width":250,"height":60,"color":"1"},
+		{"id":"fdf34380ba7d7b88","type":"text","text":"Best case: O(n^2)\nWorst case:O(n^2)\nAverage case:O(n^2)\nSpace:O(1)","x":-540,"y":-250,"width":240,"height":120,"color":"2"}
+	],
+	"edges":[
+		{"id":"3ab9d1fdd895ee1c","fromNode":"0cb9b50f08009704","fromSide":"bottom","toNode":"4432167b5ec2d47f","toSide":"top"},
+		{"id":"e962dd7af1e0d103","fromNode":"4432167b5ec2d47f","fromSide":"bottom","toNode":"60a9c9a1e20850a2","toSide":"top"},
+		{"id":"1116bfb315534a99","fromNode":"60a9c9a1e20850a2","fromSide":"bottom","toNode":"90a43ed9e453be9b","toSide":"top"},
+		{"id":"4975073ca40be06a","fromNode":"3e852f838f63569c","fromSide":"bottom","toNode":"87f3ab9822bbd70b","toSide":"top"},
+		{"id":"bf101a6aa14691e1","fromNode":"87f3ab9822bbd70b","fromSide":"bottom","toNode":"46d782835384c98d","toSide":"top"},
+		{"id":"ae2a655a42d92f20","fromNode":"46d782835384c98d","fromSide":"bottom","toNode":"cfee9ba050688385","toSide":"top"}
+	]
+}

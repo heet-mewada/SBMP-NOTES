@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"ad3f864b4f10df79","x":-820,"y":-520,"width":400,"height":400,"type":"file","file":"Notes/examshit/DSTTTT/DST PT 1.canvas"},
+		{"id":"77ff52f0399ba650","x":-240,"y":-480,"width":250,"height":60,"color":"4","type":"text","text":"Quick(A, N, Beg, End, Loc)"},
+		{"id":"644eac0817946b36","x":-240,"y":-380,"width":250,"height":60,"color":"6","type":"text","text":"Set left = beg, right = end, loc = beg"},
+		{"id":"7ce7ead73f83df66","x":-345,"y":-280,"width":460,"height":240,"color":"6","type":"text","text":"1. Repeat while A\\[LOC] lesser than equal to  A\\[RIGHT] and loc != right \n   Right = right - 1 END of loop\n   2. If loc = right then return\n   3. if a\\[loc] > a\\[right] then \n      1. interchange a\\[loc] and a\\[right] temp = a\\[loc], a\\[loc]=a\\[right], a\\[right] = temp;\n      2. set loc = right\n      3. go to step 3\n      "},
+		{"id":"e375d26887492a31","x":115,"y":-420,"width":250,"height":60,"type":"text","text":"right scan"},
+		{"id":"610601237bf984ff","x":-800,"y":-40,"width":250,"height":60,"type":"text","text":"Left scan"},
+		{"id":"07b3f08f5c3977a3","x":-345,"y":20,"width":460,"height":180,"color":"6","type":"text","text":"1. Repeat while a\\[left] lesser or equal a\\[loc] and left != loc \n\tleft = left -1;\n 2. if a\\[left]> a\\[loc], then interchange a\\[left] and a\\[loc]\n 3. loc = right, go to step 2."},
+		{"id":"59e9f781fe8af771","x":-240,"y":240,"width":250,"height":60,"color":"1","type":"text","text":"end of procedure"},
+		{"id":"9efcea67f9f6b22c","x":420,"y":-280,"width":250,"height":60,"color":"4","type":"text","text":""}
+	],
+	"edges":[
+		{"id":"6184bc889f3cadda","fromNode":"77ff52f0399ba650","fromSide":"bottom","toNode":"644eac0817946b36","toSide":"top"},
+		{"id":"fd50cc843aa8a0d5","fromNode":"644eac0817946b36","fromSide":"bottom","toNode":"7ce7ead73f83df66","toSide":"top"},
+		{"id":"81fbad3afffe9072","fromNode":"e375d26887492a31","fromSide":"left","toNode":"7ce7ead73f83df66","toSide":"right"},
+		{"id":"f9fd88fe5586386e","fromNode":"610601237bf984ff","fromSide":"right","toNode":"07b3f08f5c3977a3","toSide":"left"},
+		{"id":"1224ea2dc6cf50cd","fromNode":"7ce7ead73f83df66","fromSide":"bottom","toNode":"07b3f08f5c3977a3","toSide":"top"},
+		{"id":"7882e0654146e027","fromNode":"07b3f08f5c3977a3","fromSide":"bottom","toNode":"59e9f781fe8af771","toSide":"top"}
+	]
+}

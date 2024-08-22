@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"3d48d3f5270151c5","x":-780,"y":-460,"width":400,"height":400,"type":"file","file":"Notes/examshit/DSTTTT/DST PT 1.canvas"},
+		{"id":"3d4b9f763f14f80b","x":-60,"y":-460,"width":320,"height":100,"color":"4","type":"text","text":"Binary(data, LB, UB, item, LOC)\nLB Lower bound\nUB Upper bound"},
+		{"id":"9ae78f791097d495","x":-25,"y":-320,"width":250,"height":60,"color":"6","type":"text","text":"Set Beg= LB, End = UB, Mid = (Beg+End)/2"},
+		{"id":"61f768df3d4421ef","x":-62,"y":-200,"width":325,"height":120,"color":"6","type":"text","text":"Repeat step 3 and 4 while beg less than or equal to end and data\\[mid]!=item;"},
+		{"id":"8502212d6e5eeef1","x":-42,"y":-20,"width":285,"height":140,"color":"6","type":"text","text":"if item < data\\[mid] then\nset end = mid -1;\nelse\nset beg = mid +1\nEnd of if"},
+		{"id":"0c22a5796c1c72c9","x":-42,"y":160,"width":284,"height":100,"color":"6","type":"text","text":"Set mid = Int(beg + end)/2;\nend of step 2 loop"},
+		{"id":"ad22254e4d49766e","x":-24,"y":300,"width":249,"height":160,"color":"6","type":"text","text":"If data\\[mid]=item, then set loc =mid\nelse\nset loc = null;\nend of if"},
+		{"id":"083c93a9a5f12a0f","x":-340,"y":350,"width":250,"height":60,"color":"1","type":"text","text":"EXIT"},
+		{"id":"7d48f502b26eea66","x":-800,"y":100,"width":320,"height":160,"color":"2","type":"text","text":"Best case: O(1)\nWorst case: O(log n)\nAverage case: O(log n)\nIterative implementation: o(1)\nRecursive: o(log n)"}
+	],
+	"edges":[
+		{"id":"ee2d0d25c0464a4c","fromNode":"3d4b9f763f14f80b","fromSide":"bottom","toNode":"9ae78f791097d495","toSide":"top"},
+		{"id":"b2056c1a1d426560","fromNode":"9ae78f791097d495","fromSide":"bottom","toNode":"61f768df3d4421ef","toSide":"top"},
+		{"id":"a81638f8f889d0cc","fromNode":"61f768df3d4421ef","fromSide":"bottom","toNode":"8502212d6e5eeef1","toSide":"top"},
+		{"id":"0533e50fb882fd3d","fromNode":"8502212d6e5eeef1","fromSide":"bottom","toNode":"0c22a5796c1c72c9","toSide":"top"},
+		{"id":"6ab42e9ce9c3b52b","fromNode":"0c22a5796c1c72c9","fromSide":"bottom","toNode":"ad22254e4d49766e","toSide":"top"},
+		{"id":"e615354ebb3fe264","fromNode":"ad22254e4d49766e","fromSide":"left","toNode":"083c93a9a5f12a0f","toSide":"right"}
+	]
+}

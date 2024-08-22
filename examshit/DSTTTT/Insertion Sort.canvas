@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"fd80921a0a2f6ed1","type":"file","file":"Notes/examshit/DSTTTT/DST PT 1.canvas","x":-860,"y":-520,"width":400,"height":400},
+		{"id":"0f3b79947b22d4d6","type":"text","text":"Insertion(A,N)\nWhere A is array, N is number of elements","x":-160,"y":-480,"width":400,"height":120,"color":"4"},
+		{"id":"adde8386186ba47d","type":"text","text":"Set A\\[0]=-999","x":-85,"y":-280,"width":250,"height":60,"color":"6"},
+		{"id":"7ce98b16bdd09074","type":"text","text":"Repeat steps 3 to 5 for K=2,3,N;","x":-85,"y":-180,"width":250,"height":60,"color":"6"},
+		{"id":"bd6accf8eb40813b","type":"text","text":"Set temp = A\\[K] and PTR = k-1;","x":-84,"y":-80,"width":250,"height":60,"color":"6"},
+		{"id":"b61eb8e503dedb81","x":-152,"y":20,"width":385,"height":140,"color":"6","type":"text","text":"Repeat while temp < a\\[PTR]\n1. Set A\\[PTR+1] = A\\[PTR];\n2. Set PTR = PTR +1;\nend of loop"},
+		{"id":"f8c5ac7b0e6a62b6","x":-84,"y":200,"width":250,"height":60,"color":"6","type":"text","text":"Set A\\[PTR+1] = TEMP"},
+		{"id":"501b8e5f61701ee4","x":-85,"y":320,"width":250,"height":60,"color":"1","type":"text","text":"Exit"},
+		{"id":"ebae3d17b2e03d7b","x":-840,"y":60,"width":320,"height":120,"color":"2","type":"text","text":"Best case: O(n)\nWorst case: O(n^2)\nAverage case:O(n^2)\nSpace: O(1)"}
+	],
+	"edges":[
+		{"id":"6fab92a74b5976ea","fromNode":"0f3b79947b22d4d6","fromSide":"bottom","toNode":"adde8386186ba47d","toSide":"top"},
+		{"id":"df38f1ffdeb15249","fromNode":"adde8386186ba47d","fromSide":"bottom","toNode":"7ce98b16bdd09074","toSide":"top"},
+		{"id":"2088e887fbc0af8e","fromNode":"7ce98b16bdd09074","fromSide":"bottom","toNode":"bd6accf8eb40813b","toSide":"top"},
+		{"id":"c7fa3f4c7fd47673","fromNode":"bd6accf8eb40813b","fromSide":"bottom","toNode":"b61eb8e503dedb81","toSide":"top"},
+		{"id":"663703b42b6102d6","fromNode":"b61eb8e503dedb81","fromSide":"bottom","toNode":"f8c5ac7b0e6a62b6","toSide":"top"},
+		{"id":"f7887af4affcc664","fromNode":"f8c5ac7b0e6a62b6","fromSide":"bottom","toNode":"501b8e5f61701ee4","toSide":"top"}
+	]
+}
