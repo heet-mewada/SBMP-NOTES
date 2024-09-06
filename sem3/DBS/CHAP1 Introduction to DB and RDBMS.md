@@ -1,6 +1,7 @@
-
+# TAGS
+[[README]] 
 # Source:
-[[Resources]] contains Info on EVERYTHING in it’s rawest form that sir himself put in the PPT
+[[DBS Resources | Slides]] contains Info on EVERYTHING in it’s rawest form that sir himself put in the PPT
 
 # #IMP 
 - [[#DATA, DB AND MANAGEMENT | Definitions of data, database and other important terms]]

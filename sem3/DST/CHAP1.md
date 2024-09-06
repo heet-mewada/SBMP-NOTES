@@ -1,3 +1,5 @@
+# TAGS
+[[README]] 
 # Data types
 - Linear Data
 	Static & Dynamic Data
