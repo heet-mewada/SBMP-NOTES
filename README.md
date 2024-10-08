@@ -99,7 +99,7 @@ ___
 ---
 ## EUP
 - Write exps
-- find exp 9
+- Do devansh’s project
 - do project
 ### Experiments
 - [[xp 1.PDF]]
@@ -111,6 +111,7 @@ ___
 - [[EUP6.pdf]]
 - [[EUP7.pdf]]
 - [[EUP8.pdf]]
+- [[EXP9[1].docx]]
 - [[EXP10]]
 - [[EXP10.docx]]
 ---
@@ -125,3 +126,8 @@ ___
 #EXM for example
 #EXP for explaination
 #DIA for diagram
+### Subject
+#FMP Fundamentals of microprocessing
+#prj programming in java
+#DBMS database management system
+#DST data structure 
