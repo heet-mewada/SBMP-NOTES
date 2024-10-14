@@ -1,10 +1,47 @@
 {
 	"nodes":[
-		{"id":"c3b15d6dc8de3540","x":-125,"y":-30,"width":250,"height":60,"color":"6","type":"text","text":"CENTRAL"},
-		{"id":"b38d5d016bdf6c22","x":-600,"y":-140,"width":250,"height":60,"color":"1","type":"text","text":"GRAPHS"},
-		{"id":"b69935d900d09c73","x":-880,"y":30,"width":420,"height":330,"type":"text","text":"# GRAPH\n## Concept #EXP \nA graph is a non linear data structure consisting of vertices and edges\n\nThe vertices can be referred to as nodes and the edges are lines or arcs that connect any two nodes in the graph.\n\n---\n## Components\n- Vertices: Vertices are the fundamental units of the graph sometimes vertices are also known as vertex or node, can be labelled or unlabelled\n- Edges: Edges are drawn or used to connect two nodes of the graph, it can be ordered pair of nodes in directed graph, edges can con"}
+		{"id":"67a186ff6f339b09","x":360,"y":300,"width":250,"height":60,"type":"text","text":""},
+		{"id":"c3b15d6dc8de3540","type":"text","text":"CENTRAL","x":-125,"y":-30,"width":250,"height":60,"color":"6"},
+		{"id":"b38d5d016bdf6c22","type":"text","text":"# GRAPHS","x":-600,"y":-140,"width":250,"height":60,"color":"1"},
+		{"id":"b69935d900d09c73","type":"text","text":"# GRAPH\n## Concept #EXP \nA graph is a non linear data structure consisting of vertices and edges\n\nThe vertices can be referred to as nodes and the edges are lines or arcs that connect any two nodes in the graph.\n\n---\n## Components\n- Vertices: Vertices are the fundamental units of the graph sometimes vertices are also known as vertex or node, can be labelled or unlabelled\n- Edges: Edges are drawn or used to connect two nodes of the graph, it can be ordered pair of nodes in directed graph, edges can connect any two nodes in any possible way, there are no rules. every edge can be labelled or unlabelled.\n\n---\n## TYpes of graphs\n### NULL\nA graph is known as a null graph if there are no edges in the graph\n### Trivial \ngraph having only a single vertex, itis also the smallest graph possible\n### Undirected graph\ngraph in which edges do not have any direction that is the node are unordered pairs in the definition of every edge\n### Directed \ngraph in whcih edges have direction and the nodes are ordered pairs in the definition of every edge\n### Connected\ngraph in which from one node we can visit any other node in the graph is known as a connected graph\n### Disconnected\ngraph in which at least one node is not reachable from a node is known as a disconnected graph\n### Cyclic \nif a graph contains at least one graph cycle, it is considered cyclic\n### Acyclic\nif a graph dosnt contain at least one graph cycle, it is considered acyclic","x":-880,"y":30,"width":420,"height":330,"color":"1"},
+		{"id":"a8b3ac9ea20d6701","type":"file","file":"Excalidraw/example of graph.md","x":-1460,"y":-420,"width":400,"height":400,"color":"1"},
+		{"id":"384387adade47796","x":-1520,"y":30,"width":400,"height":400,"color":"1","type":"file","file":"Excalidraw/directed acyclic graph.md"},
+		{"id":"71feb64758fcb5eb","x":-1300,"y":540,"width":360,"height":300,"color":"1","type":"text","text":"# Adjacency Matrix\nA sequential representation is an adjaceny matrix\n- its used to show which nodes are next to one another, i.e. if any connection is present in the graph.\n- if there is no weight assigned to the graph, u can record the edge’s weights as 1 and 0."},
+		{"id":"8c24c7fc00dbabc1","x":-2040,"y":490,"width":400,"height":400,"color":"1","type":"file","file":"Excalidraw/adjacency matrix of undirected graph.md"},
+		{"id":"ec1d650e36e25a63","x":-1600,"y":980,"width":390,"height":290,"color":"1","type":"text","text":"\n|     | A   | B   | C   | D   |\n| --- | --- | --- | --- | --- |\n| A   | 0   | 1   | 1   | 1   |\n| B   | 1   | 0   | 0   | 1   |\n| C   | 1   | 0   | 0   | 0   |\n| D   | 1   | 1   | 0   | 0   |\n"},
+		{"id":"91b740c77f08f6c1","x":-1190,"y":1020,"width":370,"height":220,"color":"1","type":"text","text":"\n|     | A   | B   | C   | D   |\n| --- | --- | --- | --- | --- |\n| A   | 0   | 1   | 1   | 1   |\n| B   | 0   | 0   | 0   | 0   |\n| C   | 0   | 1   | 0   | 0   |\n| D   | 0   | 1   | 0   | 0   |\n"},
+		{"id":"bcd73c3a941dcc00","x":-900,"y":-460,"width":320,"height":160,"color":"1","type":"text","text":"# Adjacency list\nThis is a list of all nodes that are directly accessible from the node that is mentioned"},
+		{"id":"16bcc40d261d6dc2","x":-475,"y":-510,"width":360,"height":210,"color":"1","type":"text","text":"# Traversing a graph\nMany graph algorithms require one to systemically examine the nodes and edges of the graph, 2 such algorithms are Breadth first search and depth first search"},
+		{"id":"a9a60b844808663e","x":-660,"y":800,"width":400,"height":400,"color":"1","type":"file","file":"Excalidraw/adjacency matrix of directed graph.md"},
+		{"id":"53a9759adcfed62d","x":-960,"y":-760,"width":300,"height":120,"color":"1","type":"text","text":"# Breadth first search"},
+		{"id":"097e4d2503531157","x":-580,"y":-860,"width":340,"height":80,"color":"1","type":"text","text":"# Depth first search"},
+		{"id":"aa43e3e7118b3b80","x":300,"y":-60,"width":250,"height":60,"color":"4","type":"text","text":"# Linked List"},
+		{"id":"bdd43cdc9d579bfa","x":0,"y":220,"width":250,"height":60,"color":"5","type":"text","text":"# TREES"},
+		{"id":"1da4715f206346a4","x":-60,"y":420,"width":380,"height":240,"color":"5","type":"text","text":"# Trees\n- A tree is a data structure that is hierarchical in nature and used to represent and organize data in a way that is easy to navigate and search. \n- it is a collection of nodes connected by edges and has a hierarchical relationship model."}
 	],
 	"edges":[
-		{"id":"8af0c3916aecd216","fromNode":"b38d5d016bdf6c22","fromSide":"right","toNode":"c3b15d6dc8de3540","toSide":"left"}
+		{"id":"8af0c3916aecd216","fromNode":"b38d5d016bdf6c22","fromSide":"right","toNode":"c3b15d6dc8de3540","toSide":"left"},
+		{"id":"0fd4edea90c8e48e","fromNode":"b69935d900d09c73","fromSide":"top","toNode":"b38d5d016bdf6c22","toSide":"left"},
+		{"id":"21f4e002b980502e","fromNode":"a8b3ac9ea20d6701","fromSide":"right","toNode":"b69935d900d09c73","toSide":"left"},
+		{"id":"ac3309084e23e7c4","fromNode":"384387adade47796","fromSide":"right","toNode":"b69935d900d09c73","toSide":"left"},
+		{"id":"1b2fac6b9b9c20fa","fromNode":"71feb64758fcb5eb","fromSide":"top","toNode":"b69935d900d09c73","toSide":"bottom"},
+		{"id":"b632f641e2da79b6","fromNode":"8c24c7fc00dbabc1","fromSide":"right","toNode":"ec1d650e36e25a63","toSide":"left"},
+		{"id":"7094db1466135745","fromNode":"ec1d650e36e25a63","fromSide":"top","toNode":"71feb64758fcb5eb","toSide":"left"},
+		{"id":"8bf988e3e69e7cdf","fromNode":"91b740c77f08f6c1","fromSide":"right","toNode":"a9a60b844808663e","toSide":"left"},
+		{"id":"6ba355871cf7495e","fromNode":"a9a60b844808663e","fromSide":"left","toNode":"91b740c77f08f6c1","toSide":"right"},
+		{"id":"7038f705c82b0854","fromNode":"a9a60b844808663e","fromSide":"top","toNode":"71feb64758fcb5eb","toSide":"right"},
+		{"id":"222381fd8d2ceae9","fromNode":"ec1d650e36e25a63","fromSide":"left","toNode":"8c24c7fc00dbabc1","toSide":"right"},
+		{"id":"32a324d87f386697","fromNode":"bcd73c3a941dcc00","fromSide":"bottom","toNode":"b38d5d016bdf6c22","toSide":"top"},
+		{"id":"dbd8ac766710d10a","fromNode":"16bcc40d261d6dc2","fromSide":"bottom","toNode":"b38d5d016bdf6c22","toSide":"top"},
+		{"id":"25af9c1d6e08432b","fromNode":"c3b15d6dc8de3540","fromSide":"left","toNode":"b38d5d016bdf6c22","toSide":"right"},
+		{"id":"9366e06221d2db29","fromNode":"91b740c77f08f6c1","fromSide":"top","toNode":"71feb64758fcb5eb","toSide":"right"},
+		{"id":"909c345cc7974e41","fromNode":"8c24c7fc00dbabc1","fromSide":"right","toNode":"71feb64758fcb5eb","toSide":"left"},
+		{"id":"ac3346a79e7b97b8","fromNode":"53a9759adcfed62d","fromSide":"right","toNode":"16bcc40d261d6dc2","toSide":"top"},
+		{"id":"10e63e3fb011a9ed","fromNode":"53a9759adcfed62d","fromSide":"bottom","toNode":"bcd73c3a941dcc00","toSide":"top"},
+		{"id":"295ac429ff7bd95e","fromNode":"097e4d2503531157","fromSide":"bottom","toNode":"16bcc40d261d6dc2","toSide":"top"},
+		{"id":"d9568d4c56111230","fromNode":"097e4d2503531157","fromSide":"bottom","toNode":"bcd73c3a941dcc00","toSide":"top"},
+		{"id":"7c11098d90c7cc29","fromNode":"aa43e3e7118b3b80","fromSide":"left","toNode":"c3b15d6dc8de3540","toSide":"right"},
+		{"id":"3f0f9eee143d0d3f","fromNode":"bdd43cdc9d579bfa","fromSide":"top","toNode":"c3b15d6dc8de3540","toSide":"bottom"},
+		{"id":"6b3e1f8532eaa198","fromNode":"1da4715f206346a4","fromSide":"top","toNode":"bdd43cdc9d579bfa","toSide":"bottom"}
 	]
 }
