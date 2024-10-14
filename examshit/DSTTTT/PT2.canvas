@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"c3b15d6dc8de3540","x":-125,"y":-30,"width":250,"height":60,"color":"6","type":"text","text":"CENTRAL"},
+		{"id":"b38d5d016bdf6c22","x":-600,"y":-140,"width":250,"height":60,"color":"1","type":"text","text":"GRAPHS"},
+		{"id":"b69935d900d09c73","x":-880,"y":30,"width":420,"height":330,"type":"text","text":"# GRAPH\n## Concept #EXP \nA graph is a non linear data structure consisting of vertices and edges\n\nThe vertices can be referred to as nodes and the edges are lines or arcs that connect any two nodes in the graph.\n\n---\n## Components\n- Vertices: Vertices are the fundamental units of the graph sometimes vertices are also known as vertex or node, can be labelled or unlabelled\n- Edges: Edges are drawn or used to connect two nodes of the graph, it can be ordered pair of nodes in directed graph, edges can con"}
+	],
+	"edges":[
+		{"id":"8af0c3916aecd216","fromNode":"b38d5d016bdf6c22","fromSide":"right","toNode":"c3b15d6dc8de3540","toSide":"left"}
+	]
+}
