@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"f285ed3ef9b4ebb8","type":"file","file":"Notes/examshit/DSTTTT/DST PT 1.canvas","x":-40,"y":-180,"width":400,"height":400},
+		{"id":"f285ed3ef9b4ebb8","type":"file","file":"Notes/examshit/SEM3/DSTTTT/DST PT 1.canvas","x":-40,"y":-180,"width":400,"height":400},
 		{"id":"1be1974a44487f89","type":"text","text":"Bubble(data, n)\nData is array with N elements","x":-720,"y":-540,"width":300,"height":100,"color":"4"},
 		{"id":"c202cde14a089d21","type":"text","text":"Repeat steps 2 and 3 for k = 1 till N-1","x":-695,"y":-300,"width":250,"height":60,"color":"6"},
 		{"id":"09ed892484e5404a","type":"text","text":"Set PTR = 1","x":-695,"y":-180,"width":250,"height":60,"color":"6"},

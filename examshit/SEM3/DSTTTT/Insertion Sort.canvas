@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"fd80921a0a2f6ed1","type":"file","file":"Notes/examshit/DSTTTT/DST PT 1.canvas","x":-860,"y":-520,"width":400,"height":400},
+		{"id":"fd80921a0a2f6ed1","type":"file","file":"Notes/examshit/SEM3/DSTTTT/DST PT 1.canvas","x":-860,"y":-520,"width":400,"height":400},
 		{"id":"0f3b79947b22d4d6","type":"text","text":"Insertion(A,N)\nWhere A is array, N is number of elements","x":-160,"y":-480,"width":400,"height":120,"color":"4"},
 		{"id":"adde8386186ba47d","type":"text","text":"Set A\\[0]=-999","x":-85,"y":-280,"width":250,"height":60,"color":"6"},
 		{"id":"7ce98b16bdd09074","type":"text","text":"Repeat steps 3 to 5 for K=2,3,N;","x":-85,"y":-180,"width":250,"height":60,"color":"6"},

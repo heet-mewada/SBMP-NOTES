@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"69d78757c8617998","type":"file","file":"Notes/examshit/DSTTTT/DST PT 1.canvas","x":-820,"y":-600,"width":400,"height":400},
+		{"id":"69d78757c8617998","type":"file","file":"Notes/examshit/SEM3/DSTTTT/DST PT 1.canvas","x":-820,"y":-600,"width":400,"height":400},
 		{"id":"c71c7456afcbc1a0","type":"text","text":"Linear(Data, N, Item, Loc)","x":-160,"y":-600,"width":250,"height":60,"color":"4"},
 		{"id":"4f10302f202ad9d2","type":"text","text":"Insert item at the end of the data set data\\[N+1]= item;","x":-195,"y":-480,"width":320,"height":80,"color":"6"},
 		{"id":"1e950e5e744f890e","type":"text","text":"Set Loc = 1","x":-160,"y":-340,"width":250,"height":60,"color":"6"},

@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"ad3f864b4f10df79","x":-820,"y":-520,"width":400,"height":400,"type":"file","file":"Notes/examshit/DSTTTT/DST PT 1.canvas"},
+		{"id":"ad3f864b4f10df79","x":-820,"y":-520,"width":400,"height":400,"type":"file","file":"Notes/examshit/SEM3/DSTTTT/DST PT 1.canvas"},
 		{"id":"77ff52f0399ba650","x":-240,"y":-480,"width":250,"height":60,"color":"4","type":"text","text":"Quick(A, N, Beg, End, Loc)"},
 		{"id":"644eac0817946b36","x":-240,"y":-380,"width":250,"height":60,"color":"6","type":"text","text":"Set left = beg, right = end, loc = beg"},
 		{"id":"7ce7ead73f83df66","x":-345,"y":-280,"width":460,"height":240,"color":"6","type":"text","text":"1. Repeat while A\\[LOC] lesser than equal to  A\\[RIGHT] and loc != right \n   Right = right - 1 END of loop\n   2. If loc = right then return\n   3. if a\\[loc] > a\\[right] then \n      1. interchange a\\[loc] and a\\[right] temp = a\\[loc], a\\[loc]=a\\[right], a\\[right] = temp;\n      2. set loc = right\n      3. go to step 3\n      "},

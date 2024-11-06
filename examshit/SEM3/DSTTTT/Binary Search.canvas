@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"3d48d3f5270151c5","x":-780,"y":-460,"width":400,"height":400,"type":"file","file":"Notes/examshit/DSTTTT/DST PT 1.canvas"},
+		{"id":"3d48d3f5270151c5","x":-780,"y":-460,"width":400,"height":400,"type":"file","file":"Notes/examshit/SEM3/DSTTTT/DST PT 1.canvas"},
 		{"id":"3d4b9f763f14f80b","x":-60,"y":-460,"width":320,"height":100,"color":"4","type":"text","text":"Binary(data, LB, UB, item, LOC)\nLB Lower bound\nUB Upper bound"},
 		{"id":"9ae78f791097d495","x":-25,"y":-320,"width":250,"height":60,"color":"6","type":"text","text":"Set Beg= LB, End = UB, Mid = (Beg+End)/2"},
 		{"id":"61f768df3d4421ef","x":-62,"y":-200,"width":325,"height":120,"color":"6","type":"text","text":"Repeat step 3 and 4 while beg less than or equal to end and data\\[mid]!=item;"},

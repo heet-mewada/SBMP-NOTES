@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"fac1f404d7e2adde","type":"file","file":"Notes/examshit/DSTTTT/DST PT 1.canvas","x":-740,"y":-30,"width":400,"height":400},
+		{"id":"fac1f404d7e2adde","type":"file","file":"Notes/examshit/SEM3/DSTTTT/DST PT 1.canvas","x":-740,"y":-30,"width":400,"height":400},
 		{"id":"0cb9b50f08009704","type":"text","text":"Min(A, K, N, LOC)\nArray A, LOC = smallest element among A\\[K], A\\[K+1]…A\\[N];","x":-120,"y":-360,"width":420,"height":120,"color":"4"},
 		{"id":"4432167b5ec2d47f","type":"text","text":"Set min = A\\[K] and Loc = k","x":-60,"y":-160,"width":300,"height":60,"color":"6"},
 		{"id":"60a9c9a1e20850a2","type":"text","text":"Repeat for J = k +1,….N;\nIf MIN>A\\[J] then set MIN = A\\[J] and LOC = J;","x":-97,"y":0,"width":375,"height":100,"color":"6"},
