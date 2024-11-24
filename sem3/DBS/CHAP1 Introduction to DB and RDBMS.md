@@ -113,7 +113,7 @@ A composite key thats made up with foreign keys.
 	 Describes how data looks to the end user, i.e. hides unnecessary data for the end user that need not be seen by them or other end users for security purposes.
 
 # Abstraction Levels #DIA 
-![IMAGE][Abstraction.png| Data Model]
+![IMAGE][Abstraction.png| Data Model#invert_B]
 
 # Schema #EXP 
 - ## Logical Schema #EXP 
